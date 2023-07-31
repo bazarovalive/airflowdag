@@ -1,0 +1,964 @@
+[2023-07-31T20:44:12.527+0300] {processor.py:157} INFO - Started process (PID=54459) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:44:12.528+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:44:12.529+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:44:12.528+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:44:13.008+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:44:13.015+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:44:18.111+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:44:19.257+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:44:19.257+0300] {manager.py:504} INFO - Created Permission View: can read on DAG:bank_data_loading_dag
+[2023-07-31T20:44:19.267+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:44:19.267+0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:bank_data_loading_dag
+[2023-07-31T20:44:19.273+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:44:19.273+0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:bank_data_loading_dag
+[2023-07-31T20:44:19.286+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:44:19.286+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:44:19.297+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:44:19.297+0300] {dag.py:2763} INFO - Creating ORM DAG for bank_data_loading_dag
+[2023-07-31T20:44:19.308+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:44:19.307+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-30T00:00:00+00:00, run_after=2023-07-31T00:00:00+00:00
+[2023-07-31T20:44:19.327+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.800 seconds
+[2023-07-31T20:44:53.624+0300] {processor.py:157} INFO - Started process (PID=54483) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:44:53.625+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:44:53.626+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:44:53.626+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:44:54.079+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:44:54.086+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:44:59.170+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:45:00.119+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:45:00.119+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:45:00.142+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:45:00.142+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:45:00.179+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.555 seconds
+[2023-07-31T20:46:04.524+0300] {processor.py:157} INFO - Started process (PID=54538) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:46:04.525+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:46:04.526+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:46:04.526+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:46:04.972+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:46:04.979+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:46:10.053+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:46:10.980+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:46:10.980+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:46:11.002+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:46:11.002+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:46:11.020+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.497 seconds
+[2023-07-31T20:47:20.189+0300] {processor.py:157} INFO - Started process (PID=54586) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:47:20.191+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:47:20.191+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:47:20.191+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:47:20.634+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:47:20.641+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:47:25.736+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:47:26.726+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:47:26.726+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:47:26.748+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:47:26.748+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:47:26.766+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.577 seconds
+[2023-07-31T20:47:58.716+0300] {processor.py:157} INFO - Started process (PID=54602) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:47:58.717+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:47:58.718+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:47:58.718+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:47:59.166+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:47:59.173+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:48:04.248+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:48:05.199+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:48:05.199+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:48:05.222+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:48:05.221+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:48:05.240+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.524 seconds
+[2023-07-31T20:48:39.648+0300] {processor.py:157} INFO - Started process (PID=54620) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:48:39.649+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:48:39.649+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:48:39.649+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:48:40.112+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:48:40.120+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:48:45.211+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:48:46.416+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:48:46.415+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:48:46.464+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:48:46.463+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:48:46.505+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.858 seconds
+[2023-07-31T20:49:46.199+0300] {processor.py:157} INFO - Started process (PID=54669) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:49:46.201+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:49:46.201+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:49:46.201+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:49:46.652+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:49:46.658+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:49:51.730+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:49:52.695+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:49:52.695+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:49:52.718+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:49:52.718+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:49:52.736+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.537 seconds
+[2023-07-31T20:50:24.987+0300] {processor.py:157} INFO - Started process (PID=54683) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:50:24.988+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:50:24.988+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:50:24.988+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:50:25.535+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:50:25.544+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:50:30.641+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:50:31.768+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:50:31.768+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:50:31.793+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:50:31.793+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:50:31.816+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.830 seconds
+[2023-07-31T20:51:04.461+0300] {processor.py:157} INFO - Started process (PID=54696) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:51:04.463+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:51:04.464+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:51:04.463+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:51:05.132+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:51:05.141+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:51:10.221+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:51:11.160+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:51:11.160+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:51:11.182+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:51:11.182+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:51:11.200+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.739 seconds
+[2023-07-31T20:51:42.759+0300] {processor.py:157} INFO - Started process (PID=54720) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:51:42.760+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:51:42.761+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:51:42.761+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:51:43.235+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:51:43.242+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:51:48.323+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:51:49.272+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:51:49.272+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:51:49.294+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:51:49.293+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:51:49.311+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.553 seconds
+[2023-07-31T20:52:20.840+0300] {processor.py:157} INFO - Started process (PID=54730) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:52:20.841+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:52:20.842+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:52:20.842+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:52:21.323+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:52:21.330+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:52:26.409+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:52:27.365+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:52:27.365+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:52:27.388+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:52:27.388+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:52:27.408+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.568 seconds
+[2023-07-31T20:52:59.105+0300] {processor.py:157} INFO - Started process (PID=54748) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:52:59.106+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:52:59.107+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:52:59.107+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:52:59.578+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:52:59.598+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:53:04.675+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:53:05.671+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:53:05.671+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:53:05.693+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:53:05.693+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:53:05.714+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.610 seconds
+[2023-07-31T20:53:37.254+0300] {processor.py:157} INFO - Started process (PID=54765) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:53:37.255+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:53:37.256+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:53:37.255+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:53:37.711+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:53:37.717+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:53:42.793+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:53:43.740+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:53:43.740+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:53:43.761+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:53:43.761+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:53:43.781+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.527 seconds
+[2023-07-31T20:54:15.261+0300] {processor.py:157} INFO - Started process (PID=54779) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:54:15.262+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:54:15.262+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:54:15.262+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:54:15.704+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:54:15.710+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:54:20.782+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:54:21.713+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:54:21.713+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:54:21.734+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:54:21.734+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:54:21.753+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.493 seconds
+[2023-07-31T20:54:53.297+0300] {processor.py:157} INFO - Started process (PID=54795) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:54:53.299+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:54:53.299+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:54:53.299+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:54:53.793+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:54:53.800+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:54:58.872+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:54:59.839+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:54:59.838+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:54:59.860+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:54:59.860+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:54:59.879+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.583 seconds
+[2023-07-31T20:55:31.427+0300] {processor.py:157} INFO - Started process (PID=54807) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:55:31.428+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:55:31.428+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:55:31.428+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:55:31.899+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:55:31.906+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:55:36.982+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:55:37.948+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:55:37.947+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:55:37.969+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:55:37.969+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:55:37.989+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.563 seconds
+[2023-07-31T20:56:09.467+0300] {processor.py:157} INFO - Started process (PID=54829) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:56:09.469+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:56:09.469+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:56:09.469+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:56:09.931+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:56:09.939+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:56:15.010+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:56:15.953+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:56:15.953+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:56:15.974+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:56:15.973+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:56:15.993+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.526 seconds
+[2023-07-31T20:56:47.479+0300] {processor.py:157} INFO - Started process (PID=54843) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:56:47.480+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:56:47.480+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:56:47.480+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:56:47.943+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:56:47.951+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:56:53.060+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:56:54.166+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:56:54.165+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:56:54.194+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:56:54.194+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:56:54.232+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.754 seconds
+[2023-07-31T20:57:25.964+0300] {processor.py:157} INFO - Started process (PID=54862) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:57:25.965+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:57:25.966+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:57:25.966+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:57:26.420+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:57:26.427+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:57:31.502+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:57:32.425+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:57:32.425+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:57:32.446+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:57:32.445+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:57:32.465+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.501 seconds
+[2023-07-31T20:58:03.921+0300] {processor.py:157} INFO - Started process (PID=54879) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:58:03.922+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:58:03.923+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:58:03.922+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:58:04.370+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:58:04.376+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:58:09.448+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:58:10.379+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:58:10.379+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:58:10.400+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:58:10.399+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:58:10.418+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.498 seconds
+[2023-07-31T20:58:41.875+0300] {processor.py:157} INFO - Started process (PID=54894) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:58:41.876+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:58:41.877+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:58:41.877+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:58:42.332+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:58:42.339+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:58:47.413+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:58:48.344+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:58:48.343+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:58:48.364+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:58:48.364+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:58:48.382+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.508 seconds
+[2023-07-31T20:59:19.896+0300] {processor.py:157} INFO - Started process (PID=54910) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:59:19.897+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T20:59:19.897+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:59:19.897+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:59:20.362+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:59:20.368+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:59:25.442+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T20:59:26.374+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:59:26.374+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T20:59:26.395+0300] {logging_mixin.py:150} INFO - [2023-07-31T20:59:26.395+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T20:59:26.414+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.519 seconds
+[2023-07-31T21:14:51.653+0300] {processor.py:157} INFO - Started process (PID=54926) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:14:51.655+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:14:51.656+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:14:51.656+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:14:52.199+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:14:52.205+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:14:57.285+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:14:58.216+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:14:58.216+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:14:58.237+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:14:58.237+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:14:58.256+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.604 seconds
+[2023-07-31T21:15:29.723+0300] {processor.py:157} INFO - Started process (PID=54972) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:15:29.724+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:15:29.725+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:15:29.725+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:15:30.173+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:15:30.179+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:15:35.255+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:15:36.175+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:15:36.175+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:15:36.195+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:15:36.195+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:15:36.214+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.491 seconds
+[2023-07-31T21:16:08.050+0300] {processor.py:157} INFO - Started process (PID=54979) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:16:08.051+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:16:08.052+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:16:08.052+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:16:08.512+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:16:08.519+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:16:13.596+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:16:14.516+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:16:14.515+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:16:14.536+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:16:14.536+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:16:14.555+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.503 seconds
+[2023-07-31T21:16:48.341+0300] {processor.py:157} INFO - Started process (PID=54994) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:16:48.344+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:16:48.346+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:16:48.346+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:16:49.759+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:16:49.779+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:16:55.000+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:34:54.398+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:34:54.397+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:34:54.431+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:34:54.431+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:34:54.458+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 11.142 seconds
+[2023-07-31T21:35:28.409+0300] {processor.py:157} INFO - Started process (PID=55024) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:35:28.412+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:35:28.414+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:35:28.414+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:35:29.825+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:35:29.845+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:35:35.061+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:35:37.889+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:35:37.888+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:35:37.956+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:35:37.955+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:35:38.018+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 9.610 seconds
+[2023-07-31T21:36:12.306+0300] {processor.py:157} INFO - Started process (PID=55043) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:36:12.309+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:36:12.311+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:36:12.311+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:36:13.725+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:36:13.745+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:36:18.960+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:36:21.834+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:36:21.833+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:36:21.901+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:36:21.900+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:36:21.961+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 9.657 seconds
+[2023-07-31T21:36:55.652+0300] {processor.py:157} INFO - Started process (PID=55059) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:36:55.655+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:36:55.656+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:36:55.656+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:36:56.841+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:36:56.857+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:37:02.041+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:37:04.417+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:37:04.417+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:37:04.471+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:37:04.470+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:37:04.521+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 8.871 seconds
+[2023-07-31T21:37:37.701+0300] {processor.py:157} INFO - Started process (PID=55076) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:37:37.703+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:37:37.704+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:37:37.704+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:37:38.660+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:37:38.673+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:37:43.814+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:37:45.629+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:37:45.629+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:37:45.668+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:37:45.667+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:37:45.702+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 8.003 seconds
+[2023-07-31T21:38:17.874+0300] {processor.py:157} INFO - Started process (PID=55093) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:38:17.875+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:38:17.876+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:38:17.876+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:38:18.517+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:38:18.527+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:38:23.630+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:38:24.917+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:38:24.916+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:38:24.945+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:38:24.945+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:38:24.971+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 7.098 seconds
+[2023-07-31T21:38:56.793+0300] {processor.py:157} INFO - Started process (PID=55117) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:38:56.794+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:38:56.795+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:38:56.795+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:38:57.356+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:38:57.363+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:39:02.450+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:39:03.543+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:39:03.543+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:39:03.568+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:39:03.568+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:39:03.591+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.799 seconds
+[2023-07-31T21:39:35.152+0300] {processor.py:157} INFO - Started process (PID=55127) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:39:35.153+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:39:35.154+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:39:35.154+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:39:35.632+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:39:35.640+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:39:40.711+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:39:41.649+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:39:41.649+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:39:41.670+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:39:41.670+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:39:41.689+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.538 seconds
+[2023-07-31T21:40:13.140+0300] {processor.py:157} INFO - Started process (PID=55145) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:40:13.142+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:40:13.142+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:40:13.142+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:40:13.596+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:40:13.603+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:40:18.675+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:40:19.586+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:40:19.586+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:40:19.607+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:40:19.606+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:40:19.625+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.485 seconds
+[2023-07-31T21:40:51.068+0300] {processor.py:157} INFO - Started process (PID=55162) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:40:51.069+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:40:51.070+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:40:51.069+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:40:51.514+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:40:51.521+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:40:56.599+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:40:57.497+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:40:57.497+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:40:57.517+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:40:57.517+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:40:57.536+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.469 seconds
+[2023-07-31T21:41:28.978+0300] {processor.py:157} INFO - Started process (PID=55175) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:41:28.986+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:41:28.987+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:41:28.986+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:41:29.433+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:41:29.440+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:41:34.513+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:41:35.436+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:41:35.436+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:41:35.457+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:41:35.456+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:41:35.475+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.498 seconds
+[2023-07-31T21:42:06.940+0300] {processor.py:157} INFO - Started process (PID=55191) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:42:06.941+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:42:06.941+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:42:06.941+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:42:07.387+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:42:07.395+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:42:12.467+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:42:13.392+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:42:13.391+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:42:13.412+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:42:13.412+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:42:13.431+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.492 seconds
+[2023-07-31T21:42:44.869+0300] {processor.py:157} INFO - Started process (PID=55206) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:42:44.870+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:42:44.871+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:42:44.871+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:42:45.321+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:42:45.327+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:42:50.401+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:42:51.307+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:42:51.306+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:42:51.327+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:42:51.327+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:42:51.345+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.477 seconds
+[2023-07-31T21:43:22.797+0300] {processor.py:157} INFO - Started process (PID=55223) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:43:22.798+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:43:22.799+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:43:22.799+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:43:23.253+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:43:23.259+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:43:28.329+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:43:29.245+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:43:29.245+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:43:29.266+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:43:29.266+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:43:29.285+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.488 seconds
+[2023-07-31T21:44:00.730+0300] {processor.py:157} INFO - Started process (PID=55249) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:44:00.731+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:44:00.731+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:44:00.731+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:44:01.172+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:44:01.178+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:44:06.252+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:44:07.156+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:44:07.156+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:44:07.177+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:44:07.177+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:44:07.195+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.466 seconds
+[2023-07-31T21:44:38.616+0300] {processor.py:157} INFO - Started process (PID=55260) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:44:38.617+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:44:38.618+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:44:38.617+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:44:39.069+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:44:39.076+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:44:44.150+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:44:45.054+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:44:45.054+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:44:45.074+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:44:45.074+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:44:45.093+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.477 seconds
+[2023-07-31T21:45:16.526+0300] {processor.py:157} INFO - Started process (PID=55276) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:45:16.527+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:45:16.528+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:45:16.528+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:45:16.978+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:45:16.986+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:45:22.062+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:45:22.968+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:45:22.968+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:45:22.988+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:45:22.988+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:45:23.007+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.481 seconds
+[2023-07-31T21:45:54.447+0300] {processor.py:157} INFO - Started process (PID=55292) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:45:54.448+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:45:54.449+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:45:54.448+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:45:54.901+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:45:54.907+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:45:59.984+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:46:00.885+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:46:00.884+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:46:00.905+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:46:00.905+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:46:00.923+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.477 seconds
+[2023-07-31T21:46:32.367+0300] {processor.py:157} INFO - Started process (PID=55308) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:46:32.368+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:46:32.368+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:46:32.368+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:46:32.812+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:46:32.819+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:46:37.898+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:46:38.813+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:46:38.812+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:46:38.833+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:46:38.833+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:46:38.852+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.486 seconds
+[2023-07-31T21:47:10.284+0300] {processor.py:157} INFO - Started process (PID=55325) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:47:10.285+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:47:10.286+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:47:10.286+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:47:10.730+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:47:10.736+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:47:15.813+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:47:16.715+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:47:16.715+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:47:16.735+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:47:16.735+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:47:16.754+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.470 seconds
+[2023-07-31T21:47:48.193+0300] {processor.py:157} INFO - Started process (PID=55341) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:47:48.194+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:47:48.195+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:47:48.195+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:47:48.656+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:47:48.663+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:47:53.737+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:47:54.647+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:47:54.646+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:47:54.667+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:47:54.667+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:47:54.685+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.493 seconds
+[2023-07-31T21:48:26.139+0300] {processor.py:157} INFO - Started process (PID=55355) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:48:26.140+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:48:26.140+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:48:26.140+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:48:26.594+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:48:26.601+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:48:31.677+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:48:32.582+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:48:32.582+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:48:32.602+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:48:32.602+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:48:32.621+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.483 seconds
+[2023-07-31T21:49:04.047+0300] {processor.py:157} INFO - Started process (PID=55380) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:49:04.048+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:49:04.049+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:49:04.048+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:49:04.498+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:49:04.504+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:49:09.579+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:49:10.481+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:49:10.481+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:49:10.502+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:49:10.502+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:49:10.520+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.474 seconds
+[2023-07-31T21:49:41.959+0300] {processor.py:157} INFO - Started process (PID=55390) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:49:41.960+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:49:41.961+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:49:41.961+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:49:42.410+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:49:42.417+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:49:47.486+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:49:48.408+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:49:48.407+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:49:48.428+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:49:48.428+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:49:48.447+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.488 seconds
+[2023-07-31T21:50:19.875+0300] {processor.py:157} INFO - Started process (PID=55408) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:50:19.876+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:50:19.877+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:50:19.877+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:50:20.329+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:50:20.336+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:50:25.404+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:50:26.306+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:50:26.305+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:50:26.326+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:50:26.326+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:50:26.344+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.470 seconds
+[2023-07-31T21:50:57.800+0300] {processor.py:157} INFO - Started process (PID=55424) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:50:57.801+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:50:57.801+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:50:57.801+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:50:58.258+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:50:58.264+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:51:03.340+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:51:04.256+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:51:04.256+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:51:04.276+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:51:04.276+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:51:04.295+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.496 seconds
+[2023-07-31T21:51:35.740+0300] {processor.py:157} INFO - Started process (PID=55439) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:51:35.742+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:51:35.742+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:51:35.742+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:51:36.184+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:51:36.191+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:51:41.260+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:51:42.169+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:51:42.168+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:51:42.189+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:51:42.189+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:51:42.207+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.468 seconds
+[2023-07-31T21:52:13.647+0300] {processor.py:157} INFO - Started process (PID=55457) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:52:13.648+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:52:13.648+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:52:13.648+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:52:14.097+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:52:14.104+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:52:19.181+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:52:20.088+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:52:20.088+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:52:20.108+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:52:20.108+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:52:20.127+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.481 seconds
+[2023-07-31T21:52:51.561+0300] {processor.py:157} INFO - Started process (PID=55473) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:52:51.562+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:52:51.563+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:52:51.563+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:52:52.014+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:52:52.020+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:52:57.099+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:52:58.017+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:52:58.017+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:52:58.037+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:52:58.037+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:52:58.056+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.495 seconds
+[2023-07-31T21:53:29.486+0300] {processor.py:157} INFO - Started process (PID=55488) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:53:29.487+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:53:29.488+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:53:29.488+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:53:29.932+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:53:29.939+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:53:35.013+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:53:35.921+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:53:35.920+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:53:35.941+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:53:35.941+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:53:35.959+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.474 seconds
+[2023-07-31T21:54:07.410+0300] {processor.py:157} INFO - Started process (PID=55512) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:54:07.411+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:54:07.412+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:54:07.412+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:54:07.854+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:54:07.861+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:54:12.930+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:54:13.846+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:54:13.846+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:54:13.867+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:54:13.867+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:54:13.886+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.476 seconds
+[2023-07-31T21:54:45.321+0300] {processor.py:157} INFO - Started process (PID=55522) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:54:45.322+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:54:45.323+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:54:45.322+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:54:45.767+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:54:45.774+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:54:50.846+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:54:51.757+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:54:51.757+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:54:51.778+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:54:51.778+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:54:51.797+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.476 seconds
+[2023-07-31T21:55:23.255+0300] {processor.py:157} INFO - Started process (PID=55539) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:55:23.256+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:55:23.256+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:55:23.256+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:55:23.717+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:55:23.724+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:55:28.801+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:55:29.710+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:55:29.709+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:55:29.730+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:55:29.730+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:55:29.749+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.495 seconds
+[2023-07-31T21:56:01.189+0300] {processor.py:157} INFO - Started process (PID=55555) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:56:01.190+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:56:01.191+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:56:01.191+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:56:01.630+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:56:01.637+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:56:06.712+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:56:07.613+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:56:07.613+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:56:07.633+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:56:07.633+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:56:07.651+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.463 seconds
+[2023-07-31T21:56:39.074+0300] {processor.py:157} INFO - Started process (PID=55568) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:56:39.075+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:56:39.076+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:56:39.076+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:56:39.529+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:56:39.536+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:56:44.610+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:56:45.508+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:56:45.508+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:56:45.529+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:56:45.528+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:56:45.547+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.473 seconds
+[2023-07-31T21:57:16.980+0300] {processor.py:157} INFO - Started process (PID=55580) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:57:16.981+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:57:16.981+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:57:16.981+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:57:17.424+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:57:17.431+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:57:22.510+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:57:23.428+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:57:23.428+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:57:23.449+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:57:23.449+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:57:23.467+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.488 seconds
+[2023-07-31T21:57:54.890+0300] {processor.py:157} INFO - Started process (PID=55595) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:57:54.891+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:57:54.891+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:57:54.891+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:57:55.351+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:57:55.358+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:58:00.437+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:58:01.337+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:58:01.337+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:58:01.359+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:58:01.358+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:58:01.376+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.487 seconds
+[2023-07-31T21:58:32.823+0300] {processor.py:157} INFO - Started process (PID=55611) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:58:32.824+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:58:32.824+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:58:32.824+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:58:33.284+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:58:33.291+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:58:38.365+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:58:39.278+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:58:39.278+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:58:39.300+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:58:39.300+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:58:39.319+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.497 seconds
+[2023-07-31T21:59:10.760+0300] {processor.py:157} INFO - Started process (PID=55633) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:59:10.761+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:59:10.762+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:59:10.761+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:59:11.211+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:59:11.218+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:59:16.294+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:59:17.187+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:59:17.187+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:59:17.208+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:59:17.208+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:59:17.226+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.467 seconds
+[2023-07-31T21:59:48.670+0300] {processor.py:157} INFO - Started process (PID=55644) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:59:48.671+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T21:59:48.671+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:59:48.671+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:59:49.117+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T21:59:49.124+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T21:59:54.197+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T21:59:55.106+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:59:55.105+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T21:59:55.127+0300] {logging_mixin.py:150} INFO - [2023-07-31T21:59:55.127+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T21:59:55.144+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.476 seconds
+[2023-07-31T22:00:26.563+0300] {processor.py:157} INFO - Started process (PID=55660) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:00:26.564+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:00:26.564+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:00:26.564+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:00:27.018+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:00:27.024+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:00:32.102+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:00:33.013+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:00:33.012+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:00:33.034+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:00:33.033+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:00:33.051+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.489 seconds
+[2023-07-31T22:01:04.479+0300] {processor.py:157} INFO - Started process (PID=55677) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:01:04.480+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:01:04.480+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:01:04.480+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:01:04.929+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:01:04.936+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:01:10.013+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:01:10.915+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:01:10.915+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:01:10.937+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:01:10.936+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:01:10.954+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.476 seconds
+[2023-07-31T22:01:42.410+0300] {processor.py:157} INFO - Started process (PID=55692) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:01:42.411+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:01:42.412+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:01:42.412+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:01:42.853+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:01:42.860+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:01:47.938+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:01:48.849+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:01:48.849+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:01:48.871+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:01:48.870+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:01:48.888+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.479 seconds
+[2023-07-31T22:02:20.322+0300] {processor.py:157} INFO - Started process (PID=55710) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:02:20.323+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:02:20.323+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:02:20.323+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:02:20.761+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:02:20.768+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:02:25.845+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:02:26.761+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:02:26.761+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:02:26.782+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:02:26.782+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:02:26.800+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.479 seconds
+[2023-07-31T22:02:58.246+0300] {processor.py:157} INFO - Started process (PID=55726) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:02:58.247+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:02:58.248+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:02:58.248+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:02:58.697+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:02:58.704+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:03:03.775+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:03:04.687+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:03:04.687+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:03:04.709+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:03:04.708+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:03:04.726+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.481 seconds
+[2023-07-31T22:03:36.150+0300] {processor.py:157} INFO - Started process (PID=55742) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:03:36.151+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:03:36.151+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:03:36.151+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:03:36.593+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:03:36.599+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:03:41.678+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:03:42.578+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:03:42.578+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:03:42.600+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:03:42.600+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:03:42.618+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.468 seconds
+[2023-07-31T22:04:14.058+0300] {processor.py:157} INFO - Started process (PID=55769) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:04:14.059+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:04:14.060+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:04:14.060+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:04:14.501+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:04:14.508+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:04:19.584+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:04:20.489+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:04:20.489+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:04:20.510+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:04:20.510+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:04:20.527+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.470 seconds
+[2023-07-31T22:04:51.956+0300] {processor.py:157} INFO - Started process (PID=55780) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:04:51.957+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:04:51.958+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:04:51.958+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:04:52.404+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:04:52.410+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:04:57.484+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:04:58.397+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:04:58.397+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:04:58.419+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:04:58.418+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:04:58.436+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.481 seconds
+[2023-07-31T22:05:29.868+0300] {processor.py:157} INFO - Started process (PID=55795) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:05:29.869+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:05:29.870+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:05:29.869+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:05:30.312+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:05:30.319+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:05:35.392+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:05:36.295+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:05:36.295+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:05:36.316+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:05:36.316+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:05:36.334+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.466 seconds
+[2023-07-31T22:06:07.777+0300] {processor.py:157} INFO - Started process (PID=55812) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:06:07.778+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:06:07.778+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:06:07.778+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:06:08.225+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:06:08.232+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:06:13.306+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:06:14.221+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:06:14.221+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:06:14.243+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:06:14.243+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:06:14.261+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.485 seconds
+[2023-07-31T22:06:45.703+0300] {processor.py:157} INFO - Started process (PID=55828) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:06:45.704+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:06:45.704+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:06:45.704+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:06:46.146+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:06:46.152+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:06:51.227+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:06:52.135+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:06:52.134+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:06:52.156+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:06:52.156+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:06:52.174+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.472 seconds
+[2023-07-31T22:07:23.601+0300] {processor.py:157} INFO - Started process (PID=55845) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:07:23.602+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:07:23.603+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:07:23.602+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:07:24.052+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:07:24.058+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:07:29.133+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:07:30.038+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:07:30.038+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:07:30.059+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:07:30.059+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:07:30.076+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.476 seconds
+[2023-07-31T22:08:01.504+0300] {processor.py:157} INFO - Started process (PID=55860) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:08:01.505+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:08:01.505+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:08:01.505+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:08:01.940+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:08:01.947+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:08:07.016+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:08:07.923+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:08:07.922+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:08:07.944+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:08:07.943+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:08:07.961+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.458 seconds
+[2023-07-31T22:08:39.384+0300] {processor.py:157} INFO - Started process (PID=55876) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:08:39.385+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:08:39.386+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:08:39.386+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:08:39.830+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:08:39.836+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:08:44.915+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:08:45.812+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:08:45.811+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:08:45.833+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:08:45.833+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:08:45.851+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.467 seconds
+[2023-07-31T22:09:17.292+0300] {processor.py:157} INFO - Started process (PID=55902) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:09:17.293+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:09:17.294+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:09:17.294+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:09:17.734+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:09:17.741+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:09:22.812+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:09:23.724+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:09:23.724+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:09:23.746+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:09:23.745+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:09:23.763+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.472 seconds
+[2023-07-31T22:09:55.196+0300] {processor.py:157} INFO - Started process (PID=55913) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:09:55.197+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:09:55.198+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:09:55.198+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:09:55.633+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:09:55.639+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:10:00.712+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:10:01.606+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:10:01.606+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:10:01.627+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:10:01.627+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:10:01.644+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.449 seconds
+[2023-07-31T22:10:33.079+0300] {processor.py:157} INFO - Started process (PID=55931) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:10:33.080+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:10:33.081+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:10:33.081+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:10:33.528+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:10:33.535+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:10:38.613+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:10:39.515+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:10:39.514+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:10:39.536+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:10:39.536+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:10:39.554+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.475 seconds
+[2023-07-31T22:11:10.992+0300] {processor.py:157} INFO - Started process (PID=55948) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:11:10.993+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:11:10.994+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:11:10.993+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:11:11.435+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:11:11.441+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:11:16.520+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:11:17.435+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:11:17.434+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:11:17.456+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:11:17.456+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:11:17.474+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.482 seconds
+[2023-07-31T22:11:48.961+0300] {processor.py:157} INFO - Started process (PID=55990) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:11:48.962+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:11:48.963+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:11:48.963+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:11:49.461+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:11:49.467+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:11:54.551+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:11:55.576+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:11:55.576+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:11:55.599+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:11:55.598+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:11:55.618+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.657 seconds
+[2023-07-31T22:12:27.098+0300] {processor.py:157} INFO - Started process (PID=56016) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:12:27.099+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:12:27.100+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:12:27.100+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:12:27.547+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:12:27.554+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:12:32.632+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:12:33.622+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:12:33.622+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:12:33.644+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:12:33.644+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:12:33.663+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.565 seconds
+[2023-07-31T22:13:05.246+0300] {processor.py:157} INFO - Started process (PID=56034) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:13:05.247+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:13:05.248+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:13:05.248+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:13:05.709+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:13:05.715+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:13:10.788+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:13:11.729+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:13:11.729+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:13:11.751+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:13:11.751+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:13:11.768+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.523 seconds
+[2023-07-31T22:13:43.322+0300] {processor.py:157} INFO - Started process (PID=56043) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:13:43.324+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:13:43.324+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:13:43.324+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:13:43.810+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:13:43.817+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:13:48.893+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:13:49.898+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:13:49.898+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:13:49.920+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:13:49.920+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:13:49.938+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.616 seconds
+[2023-07-31T22:14:21.492+0300] {processor.py:157} INFO - Started process (PID=56137) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:14:21.493+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:14:21.494+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:14:21.493+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:14:21.982+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:14:21.989+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:14:27.064+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:14:28.054+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:14:28.054+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:14:28.077+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:14:28.076+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:14:28.096+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.605 seconds
+[2023-07-31T22:14:59.630+0300] {processor.py:157} INFO - Started process (PID=56151) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:14:59.631+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:14:59.631+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:14:59.631+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:15:00.090+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:15:00.097+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:15:05.171+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:15:06.122+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:15:06.122+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:15:06.148+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:15:06.147+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:15:06.168+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.539 seconds
+[2023-07-31T22:15:37.788+0300] {processor.py:157} INFO - Started process (PID=56170) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:15:37.789+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:15:37.790+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:15:37.790+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:15:38.273+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:15:38.281+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:15:43.357+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:15:44.363+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:15:44.362+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:15:44.385+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:15:44.385+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:15:44.405+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.617 seconds
+[2023-07-31T22:16:15.967+0300] {processor.py:157} INFO - Started process (PID=56185) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:16:15.969+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:16:15.969+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:16:15.969+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:16:16.457+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:16:16.464+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:16:21.541+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:16:22.527+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:16:22.527+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:16:22.553+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:16:22.553+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:16:22.573+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.607 seconds
+[2023-07-31T22:16:54.090+0300] {processor.py:157} INFO - Started process (PID=56195) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:16:54.091+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:16:54.091+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:16:54.091+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:16:54.553+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:16:54.560+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:16:59.633+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:17:00.587+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:17:00.587+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:17:00.611+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:17:00.611+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:17:00.631+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.542 seconds
+[2023-07-31T22:17:32.116+0300] {processor.py:157} INFO - Started process (PID=56208) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:17:32.118+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:17:32.118+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:17:32.118+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:17:32.568+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:17:32.575+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:17:37.669+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:17:38.696+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:17:38.695+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:17:38.721+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:17:38.721+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:17:38.743+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.628 seconds
+[2023-07-31T22:18:10.454+0300] {processor.py:157} INFO - Started process (PID=56228) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:18:10.455+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:18:10.456+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:18:10.456+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:18:10.985+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:18:10.993+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:18:16.076+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:18:17.038+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:18:17.037+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:18:17.060+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:18:17.059+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:18:17.078+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.625 seconds
+[2023-07-31T22:18:48.599+0300] {processor.py:157} INFO - Started process (PID=56239) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:18:48.600+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:18:48.601+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:18:48.600+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:18:49.062+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:18:49.068+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:18:54.141+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:18:55.136+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:18:55.136+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:18:55.163+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:18:55.163+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:18:55.181+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.582 seconds
+[2023-07-31T22:19:26.690+0300] {processor.py:157} INFO - Started process (PID=56257) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:19:26.691+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:19:26.692+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:19:26.691+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:19:27.132+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:19:27.139+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:19:32.213+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:19:33.138+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:19:33.138+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:19:33.160+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:19:33.160+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:19:33.178+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.489 seconds
+[2023-07-31T22:20:04.752+0300] {processor.py:157} INFO - Started process (PID=56273) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:20:04.753+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:20:04.753+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:20:04.753+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:20:05.210+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:20:05.216+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:20:10.296+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:20:11.225+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:20:11.224+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:20:11.247+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:20:11.247+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:20:11.268+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.517 seconds
+[2023-07-31T22:20:42.797+0300] {processor.py:157} INFO - Started process (PID=56284) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:20:42.798+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:20:42.799+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:20:42.799+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:20:43.266+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:20:43.276+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:20:48.354+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:20:49.302+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:20:49.302+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:20:49.324+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:20:49.323+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:20:49.342+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.545 seconds
+[2023-07-31T22:21:20.856+0300] {processor.py:157} INFO - Started process (PID=56296) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:21:20.857+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:21:20.858+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:21:20.858+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:21:21.307+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:21:21.314+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:21:26.396+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:21:27.359+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:21:27.359+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:21:27.380+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:21:27.380+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:21:27.398+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.542 seconds
+[2023-07-31T22:21:58.810+0300] {processor.py:157} INFO - Started process (PID=56310) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:21:58.811+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:21:58.811+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:21:58.811+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:21:59.276+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:21:59.283+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:22:04.361+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:22:05.284+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:22:05.284+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:22:05.305+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:22:05.305+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:22:05.323+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.514 seconds
+[2023-07-31T22:22:36.875+0300] {processor.py:157} INFO - Started process (PID=56325) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:22:36.876+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:22:36.876+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:22:36.876+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:22:37.362+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:22:37.368+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:22:42.442+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:22:43.423+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:22:43.423+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:22:43.446+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:22:43.446+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:22:43.466+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.592 seconds
+[2023-07-31T22:23:14.994+0300] {processor.py:157} INFO - Started process (PID=56357) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:23:14.995+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:23:14.996+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:23:14.996+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:23:15.477+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:23:15.484+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:23:20.560+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:23:21.491+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:23:21.490+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:23:21.514+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:23:21.514+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:23:21.533+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.539 seconds
+[2023-07-31T22:23:53.092+0300] {processor.py:157} INFO - Started process (PID=56366) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:23:53.093+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:23:53.094+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:23:53.093+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:23:53.545+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:23:53.552+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:23:58.625+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:23:59.547+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:23:59.546+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:23:59.569+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:23:59.568+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:23:59.586+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.495 seconds
+[2023-07-31T22:24:31.077+0300] {processor.py:157} INFO - Started process (PID=56402) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:24:31.078+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:24:31.078+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:24:31.078+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:24:31.544+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:24:31.550+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:24:36.632+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:24:37.627+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:24:37.627+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:24:37.650+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:24:37.649+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:24:37.667+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.591 seconds
+[2023-07-31T22:25:09.135+0300] {processor.py:157} INFO - Started process (PID=56432) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:25:09.136+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:25:09.137+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:25:09.136+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:25:09.606+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:25:09.612+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:25:14.688+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:25:15.645+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:25:15.645+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:25:15.669+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:25:15.668+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:25:15.688+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.554 seconds
+[2023-07-31T22:25:47.188+0300] {processor.py:157} INFO - Started process (PID=56457) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:25:47.189+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:25:47.190+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:25:47.190+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:25:47.652+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:25:47.658+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:25:52.738+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:25:53.718+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:25:53.717+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-31T22:25:53.741+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:25:53.741+0300] {dag.py:3504} INFO - Setting next_dagrun for bank_data_loading_dag to 2023-07-31T00:00:00+00:00, run_after=2023-08-01T00:00:00+00:00
+[2023-07-31T22:25:53.760+0300] {processor.py:179} INFO - Processing /Users/olgastash/airflow/dags/mydag.py took 6.573 seconds
+[2023-07-31T22:26:25.319+0300] {processor.py:157} INFO - Started process (PID=56467) to work on /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:26:25.321+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/mydag.py for tasks to queue
+[2023-07-31T22:26:25.321+0300] {logging_mixin.py:150} INFO - [2023-07-31T22:26:25.321+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/mydag.py
+[2023-07-31T22:26:25.776+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T22:26:25.783+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T22:26:30.857+0300] {processor.py:836} INFO - DAG(s) dict_keys(['bank_data_loading_dag']) retrieved from /Users/olgastash/airflow/dags/mydag.py

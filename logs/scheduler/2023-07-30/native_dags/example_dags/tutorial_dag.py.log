@@ -1,0 +1,774 @@
+[2023-07-30T18:27:48.599+0300] {processor.py:157} INFO - Started process (PID=28919) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:27:48.600+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:27:48.601+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:48.601+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:27:48.636+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:27:49.613+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:49.613+0300] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2023-07-30T18:27:49.623+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:49.623+0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2023-07-30T18:27:49.629+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:49.629+0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2023-07-30T18:27:49.641+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:49.640+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:27:49.652+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:49.652+0300] {dag.py:2763} INFO - Creating ORM DAG for tutorial_dag
+[2023-07-30T18:27:49.661+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:49.660+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:27:49.680+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.082 seconds
+[2023-07-30T18:30:23.587+0300] {processor.py:157} INFO - Started process (PID=29027) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:30:23.588+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:30:23.588+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:30:23.588+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:30:23.625+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:30:24.499+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:30:24.499+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:30:24.518+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:30:24.518+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:30:24.537+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.951 seconds
+[2023-07-30T18:32:24.268+0300] {processor.py:157} INFO - Started process (PID=29104) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:32:24.269+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:32:24.270+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:32:24.269+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:32:24.307+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:32:25.187+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:32:25.186+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:32:25.205+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:32:25.205+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:32:25.223+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.955 seconds
+[2023-07-30T18:34:24.324+0300] {processor.py:157} INFO - Started process (PID=29180) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:34:24.325+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:34:24.326+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:34:24.326+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:34:24.372+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:34:25.237+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:34:25.236+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:34:25.254+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:34:25.254+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:34:25.273+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.950 seconds
+[2023-07-30T18:36:19.653+0300] {processor.py:157} INFO - Started process (PID=29259) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:36:19.654+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:36:19.655+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:36:19.655+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:36:19.690+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:36:20.575+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:36:20.575+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:36:20.593+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:36:20.593+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:36:20.611+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.959 seconds
+[2023-07-30T18:38:13.585+0300] {processor.py:157} INFO - Started process (PID=29329) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:38:13.586+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:38:13.587+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:38:13.587+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:38:13.623+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:38:14.494+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:38:14.494+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:38:14.513+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:38:14.512+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:38:14.531+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.946 seconds
+[2023-07-30T18:40:14.314+0300] {processor.py:157} INFO - Started process (PID=29415) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:40:14.315+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:40:14.316+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:40:14.316+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:40:14.351+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:40:15.256+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:40:15.255+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:40:15.275+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:40:15.274+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:40:15.296+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.982 seconds
+[2023-07-30T18:42:13.243+0300] {processor.py:157} INFO - Started process (PID=29533) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:42:13.244+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:42:13.245+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:42:13.245+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:42:13.280+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:42:14.143+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:42:14.143+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:42:14.161+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:42:14.161+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:42:14.178+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.936 seconds
+[2023-07-30T18:44:11.469+0300] {processor.py:157} INFO - Started process (PID=29610) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:44:11.470+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:44:11.471+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:44:11.470+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:44:11.506+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:44:12.377+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:44:12.376+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:44:12.395+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:44:12.394+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:44:12.413+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.945 seconds
+[2023-07-30T18:46:11.375+0300] {processor.py:157} INFO - Started process (PID=29694) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:46:11.376+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:46:11.376+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:46:11.376+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:46:11.411+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:46:12.263+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:46:12.263+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:46:12.281+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:46:12.281+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:46:12.299+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.926 seconds
+[2023-07-30T18:48:04.169+0300] {processor.py:157} INFO - Started process (PID=29835) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:48:04.170+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:48:04.171+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:48:04.170+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:48:04.207+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:48:05.143+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:48:05.143+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:48:05.162+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:48:05.162+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:48:05.181+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.013 seconds
+[2023-07-30T18:49:56.643+0300] {processor.py:157} INFO - Started process (PID=29928) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:49:56.644+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:49:56.645+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:49:56.645+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:49:56.681+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:49:57.553+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:49:57.553+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:49:57.571+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:49:57.571+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:49:57.589+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.946 seconds
+[2023-07-30T18:51:55.979+0300] {processor.py:157} INFO - Started process (PID=30016) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:51:55.980+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:51:55.981+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:51:55.981+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:51:56.017+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:51:56.879+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:51:56.878+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:51:56.897+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:51:56.896+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:51:56.914+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.936 seconds
+[2023-07-30T18:53:49.104+0300] {processor.py:157} INFO - Started process (PID=30115) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:53:49.105+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:53:49.106+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:53:49.106+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:53:49.141+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:53:49.996+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:53:49.996+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:53:50.014+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:53:50.014+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:53:50.033+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.930 seconds
+[2023-07-30T18:55:39.798+0300] {processor.py:157} INFO - Started process (PID=30218) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:55:39.799+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:55:39.800+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:55:39.800+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:55:39.835+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:55:40.686+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:55:40.686+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:55:40.704+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:55:40.704+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:55:40.723+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.925 seconds
+[2023-07-30T18:57:35.027+0300] {processor.py:157} INFO - Started process (PID=30319) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:57:35.028+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:57:35.029+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:57:35.029+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:57:35.064+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:57:35.922+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:57:35.921+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:57:35.941+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:57:35.941+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:57:35.959+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.932 seconds
+[2023-07-30T18:59:32.491+0300] {processor.py:157} INFO - Started process (PID=30400) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:59:32.492+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T18:59:32.493+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:59:32.493+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:59:32.536+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T18:59:33.688+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:59:33.687+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:59:33.711+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:59:33.711+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T18:59:33.737+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.248 seconds
+[2023-07-30T19:01:36.598+0300] {processor.py:157} INFO - Started process (PID=30482) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:01:36.599+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:01:36.599+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:01:36.599+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:01:36.634+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:01:37.540+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:01:37.540+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:01:37.559+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:01:37.559+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:01:37.577+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.980 seconds
+[2023-07-30T19:03:44.607+0300] {processor.py:157} INFO - Started process (PID=30580) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:03:44.608+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:03:44.608+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:03:44.608+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:03:44.644+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:03:45.506+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:03:45.506+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:03:45.524+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:03:45.524+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:03:45.544+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.938 seconds
+[2023-07-30T19:05:49.733+0300] {processor.py:157} INFO - Started process (PID=30648) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:05:49.734+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:05:49.734+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:05:49.734+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:05:49.769+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:05:50.718+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:05:50.717+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:05:50.736+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:05:50.736+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:05:50.758+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.026 seconds
+[2023-07-30T19:07:44.587+0300] {processor.py:157} INFO - Started process (PID=30710) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:07:44.588+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:07:44.589+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:07:44.588+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:07:44.624+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:07:45.485+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:07:45.485+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:07:45.503+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:07:45.503+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:07:45.522+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.936 seconds
+[2023-07-30T19:09:40.929+0300] {processor.py:157} INFO - Started process (PID=30778) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:09:40.930+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:09:40.930+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:09:40.930+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:09:40.965+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:09:41.919+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:09:41.919+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:09:41.938+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:09:41.938+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:09:41.959+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.031 seconds
+[2023-07-30T19:11:46.219+0300] {processor.py:157} INFO - Started process (PID=30849) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:11:46.220+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:11:46.221+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:11:46.221+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:11:46.256+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:11:47.129+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:11:47.128+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:11:47.151+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:11:47.151+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:11:47.171+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.953 seconds
+[2023-07-30T19:13:57.428+0300] {processor.py:157} INFO - Started process (PID=30939) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:13:57.429+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:13:57.430+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:13:57.430+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:13:57.465+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:13:58.329+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:13:58.328+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:13:58.346+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:13:58.346+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:13:58.364+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.937 seconds
+[2023-07-30T19:15:58.962+0300] {processor.py:157} INFO - Started process (PID=31005) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:15:58.963+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:15:58.964+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:15:58.964+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:15:59.001+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:15:59.984+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:15:59.984+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:16:00.004+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:16:00.004+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:16:00.025+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.063 seconds
+[2023-07-30T19:18:03.673+0300] {processor.py:157} INFO - Started process (PID=31149) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:18:03.674+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:18:03.675+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:18:03.675+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:18:03.711+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:18:04.567+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:18:04.567+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:18:04.585+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:18:04.585+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:18:04.604+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.932 seconds
+[2023-07-30T19:20:13.722+0300] {processor.py:157} INFO - Started process (PID=31224) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:20:13.723+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:20:13.724+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:20:13.723+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:20:13.768+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:20:15.037+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:20:15.036+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:20:15.056+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:20:15.055+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:20:15.077+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.356 seconds
+[2023-07-30T19:22:22.334+0300] {processor.py:157} INFO - Started process (PID=31303) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:22:22.335+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:22:22.335+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:22:22.335+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:22:22.371+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:22:23.231+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:22:23.231+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:22:23.249+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:22:23.249+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:22:23.267+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.935 seconds
+[2023-07-30T19:24:21.562+0300] {processor.py:157} INFO - Started process (PID=31373) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:24:21.563+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:24:21.564+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:24:21.564+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:24:21.598+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:24:22.550+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:24:22.549+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:24:22.569+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:24:22.569+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:24:22.589+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.028 seconds
+[2023-07-30T19:26:25.470+0300] {processor.py:157} INFO - Started process (PID=31447) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:26:25.471+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:26:25.472+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:26:25.471+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:26:25.507+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:26:26.372+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:26:26.372+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:26:26.390+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:26:26.390+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:26:26.409+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.940 seconds
+[2023-07-30T19:28:22.561+0300] {processor.py:157} INFO - Started process (PID=31518) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:28:22.562+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T19:28:22.563+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:28:22.562+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:28:22.597+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T19:28:23.448+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:28:23.448+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:28:23.467+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:28:23.466+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T19:28:23.487+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.926 seconds
+[2023-07-30T20:09:49.518+0300] {processor.py:157} INFO - Started process (PID=31666) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:09:49.522+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:09:49.524+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:09:49.523+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:09:49.638+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:09:52.656+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:09:52.655+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:09:52.717+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:09:52.716+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:09:52.779+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 3.258 seconds
+[2023-07-30T20:12:54.934+0300] {processor.py:157} INFO - Started process (PID=31821) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:12:54.936+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:12:54.936+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:12:54.936+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:12:54.975+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:12:55.937+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:12:55.936+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:12:55.955+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:12:55.955+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:12:55.974+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.040 seconds
+[2023-07-30T20:15:04.420+0300] {processor.py:157} INFO - Started process (PID=31945) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:15:04.422+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:15:04.422+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:15:04.422+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:15:04.459+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:15:05.463+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:15:05.463+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:15:05.483+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:15:05.483+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:15:05.504+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.085 seconds
+[2023-07-30T20:17:15.035+0300] {processor.py:157} INFO - Started process (PID=32033) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:17:15.036+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:17:15.037+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:17:15.036+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:17:15.072+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:17:16.127+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:17:16.126+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:17:16.146+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:17:16.146+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:17:16.165+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.131 seconds
+[2023-07-30T20:19:41.317+0300] {processor.py:157} INFO - Started process (PID=32173) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:19:41.318+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:19:41.318+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:19:41.318+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:19:41.355+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:19:42.316+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:19:42.316+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:19:42.335+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:19:42.334+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:19:42.355+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.039 seconds
+[2023-07-30T20:21:51.039+0300] {processor.py:157} INFO - Started process (PID=32254) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:21:51.040+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:21:51.041+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:21:51.041+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:21:51.076+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:21:51.982+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:21:51.982+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:21:52.000+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:21:52.000+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:21:52.021+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.982 seconds
+[2023-07-30T20:24:02.466+0300] {processor.py:157} INFO - Started process (PID=32456) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:24:02.467+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:24:02.467+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:24:02.467+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:24:02.505+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:24:03.391+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:24:03.391+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:24:03.410+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:24:03.410+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:24:03.428+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.964 seconds
+[2023-07-30T20:26:14.055+0300] {processor.py:157} INFO - Started process (PID=32554) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:26:14.056+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:26:14.057+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:26:14.057+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:26:14.093+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:26:15.136+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:26:15.136+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:26:15.158+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:26:15.158+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:26:15.179+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.125 seconds
+[2023-07-30T20:28:20.944+0300] {processor.py:157} INFO - Started process (PID=32626) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:28:20.945+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:28:20.946+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:28:20.946+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:28:20.981+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:28:21.850+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:28:21.849+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:28:21.869+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:28:21.868+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:28:21.886+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.943 seconds
+[2023-07-30T20:30:30.616+0300] {processor.py:157} INFO - Started process (PID=32730) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:30:30.617+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:30:30.618+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:30:30.617+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:30:30.654+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:30:31.774+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:30:31.773+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:30:31.794+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:30:31.794+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:30:31.817+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.202 seconds
+[2023-07-30T20:32:45.424+0300] {processor.py:157} INFO - Started process (PID=32888) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:32:45.425+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:32:45.426+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:32:45.425+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:32:45.463+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:32:46.360+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:32:46.360+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:32:46.380+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:32:46.380+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:32:46.398+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.974 seconds
+[2023-07-30T20:34:48.538+0300] {processor.py:157} INFO - Started process (PID=32982) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:34:48.539+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:34:48.540+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:34:48.540+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:34:48.576+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:34:49.568+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:34:49.568+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:34:49.586+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:34:49.585+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:34:49.606+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.069 seconds
+[2023-07-30T20:36:57.404+0300] {processor.py:157} INFO - Started process (PID=33101) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:36:57.405+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:36:57.406+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:36:57.406+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:36:57.443+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:36:58.321+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:36:58.320+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:36:58.339+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:36:58.339+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:36:58.357+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.954 seconds
+[2023-07-30T20:39:06.808+0300] {processor.py:157} INFO - Started process (PID=33252) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:39:06.809+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:39:06.810+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:39:06.810+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:39:06.847+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:39:07.753+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:39:07.753+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:39:07.773+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:39:07.773+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:39:07.791+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.984 seconds
+[2023-07-30T20:41:15.676+0300] {processor.py:157} INFO - Started process (PID=33357) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:41:15.677+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:41:15.677+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:41:15.677+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:41:15.713+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:41:16.727+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:41:16.726+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:41:16.745+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:41:16.745+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:41:16.765+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.090 seconds
+[2023-07-30T20:43:25.590+0300] {processor.py:157} INFO - Started process (PID=33484) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:43:25.591+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:43:25.591+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:43:25.591+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:43:25.628+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:43:26.532+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:43:26.532+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:43:26.553+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:43:26.553+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:43:26.571+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.982 seconds
+[2023-07-30T20:45:33.960+0300] {processor.py:157} INFO - Started process (PID=33625) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:45:33.961+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:45:33.962+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:45:33.962+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:45:33.998+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:45:34.993+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:45:34.993+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:45:35.011+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:45:35.011+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:45:35.032+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.072 seconds
+[2023-07-30T20:47:41.288+0300] {processor.py:157} INFO - Started process (PID=33736) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:47:41.289+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:47:41.290+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:47:41.290+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:47:41.329+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:47:42.242+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:47:42.242+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:47:42.262+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:47:42.261+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:47:42.280+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.992 seconds
+[2023-07-30T20:49:52.597+0300] {processor.py:157} INFO - Started process (PID=33860) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:49:52.598+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:49:52.599+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:49:52.599+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:49:52.634+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:49:53.626+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:49:53.626+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:49:53.644+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:49:53.644+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:49:53.665+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.068 seconds
+[2023-07-30T20:52:03.006+0300] {processor.py:157} INFO - Started process (PID=33963) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:52:03.007+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:52:03.008+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:52:03.008+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:52:03.044+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:52:03.969+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:52:03.969+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:52:03.992+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:52:03.991+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:52:04.013+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.008 seconds
+[2023-07-30T20:54:22.964+0300] {processor.py:157} INFO - Started process (PID=34084) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:54:22.965+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:54:22.966+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:54:22.966+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:54:23.004+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:54:23.927+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:54:23.926+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:54:23.947+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:54:23.946+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:54:23.965+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.002 seconds
+[2023-07-30T20:56:34.934+0300] {processor.py:157} INFO - Started process (PID=34186) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:56:34.935+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:56:34.936+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:56:34.935+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:56:34.971+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:56:35.957+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:56:35.957+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:56:35.975+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:56:35.975+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:56:35.995+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.062 seconds
+[2023-07-30T20:58:47.146+0300] {processor.py:157} INFO - Started process (PID=34288) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:58:47.147+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T20:58:47.148+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:58:47.147+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:58:47.184+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T20:58:48.078+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:58:48.078+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:58:48.098+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:58:48.097+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T20:58:48.115+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.970 seconds
+[2023-07-30T21:01:02.164+0300] {processor.py:157} INFO - Started process (PID=34375) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:01:02.165+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:01:02.166+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:01:02.166+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:01:02.201+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:01:03.215+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:01:03.215+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:01:03.234+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:01:03.233+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:01:03.254+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.091 seconds
+[2023-07-30T21:03:17.418+0300] {processor.py:157} INFO - Started process (PID=34460) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:03:17.419+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:03:17.420+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:03:17.419+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:03:17.462+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:03:18.547+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:03:18.546+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:03:18.568+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:03:18.567+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:03:18.586+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.169 seconds
+[2023-07-30T21:05:36.496+0300] {processor.py:157} INFO - Started process (PID=34549) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:05:36.497+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:05:36.498+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:05:36.498+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:05:36.535+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:05:37.696+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:05:37.696+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:05:37.715+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:05:37.715+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:05:37.736+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.240 seconds
+[2023-07-30T21:07:52.914+0300] {processor.py:157} INFO - Started process (PID=34643) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:07:52.916+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:07:52.917+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:07:52.916+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:07:52.953+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:07:53.854+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:07:53.854+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:07:53.874+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:07:53.874+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:07:53.892+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.978 seconds
+[2023-07-30T21:10:06.395+0300] {processor.py:157} INFO - Started process (PID=34755) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:10:06.396+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:10:06.397+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:10:06.397+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:10:06.467+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:10:07.463+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:10:07.463+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:10:07.481+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:10:07.481+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:10:07.501+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.107 seconds
+[2023-07-30T21:12:16.853+0300] {processor.py:157} INFO - Started process (PID=34888) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:12:16.854+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:12:16.854+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:12:16.854+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:12:16.890+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:12:17.798+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:12:17.798+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:12:17.817+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:12:17.817+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:12:17.836+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.984 seconds
+[2023-07-30T21:14:44.090+0300] {processor.py:157} INFO - Started process (PID=34999) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:14:44.091+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:14:44.091+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:14:44.091+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:14:44.128+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:14:45.038+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:14:45.038+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:14:45.057+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:14:45.057+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:14:45.075+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.987 seconds
+[2023-07-30T21:16:57.636+0300] {processor.py:157} INFO - Started process (PID=35097) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:16:57.637+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:16:57.638+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:16:57.638+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:16:57.674+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:16:58.769+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:16:58.769+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:16:58.787+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:16:58.787+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:16:58.807+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.171 seconds
+[2023-07-30T21:19:16.021+0300] {processor.py:157} INFO - Started process (PID=35177) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:19:16.022+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:19:16.023+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:19:16.022+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:19:16.059+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:19:16.984+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:19:16.984+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:19:17.005+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:19:17.005+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:19:17.024+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.004 seconds
+[2023-07-30T21:21:26.451+0300] {processor.py:157} INFO - Started process (PID=35258) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:21:26.452+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:21:26.452+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:21:26.452+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:21:26.488+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:21:27.509+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:21:27.508+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:21:27.527+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:21:27.526+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:21:27.548+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.098 seconds
+[2023-07-30T21:23:35.295+0300] {processor.py:157} INFO - Started process (PID=35351) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:23:35.296+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:23:35.297+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:23:35.297+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:23:35.334+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:23:36.248+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:23:36.247+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:23:36.268+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:23:36.268+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:23:36.287+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.992 seconds
+[2023-07-30T21:25:43.100+0300] {processor.py:157} INFO - Started process (PID=35449) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:25:43.101+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:25:43.102+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:25:43.102+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:25:43.138+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:25:44.117+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:25:44.117+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:25:44.135+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:25:44.135+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:25:44.155+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.056 seconds
+[2023-07-30T21:27:55.144+0300] {processor.py:157} INFO - Started process (PID=35573) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:27:55.145+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:27:55.146+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:27:55.145+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:27:55.181+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:27:56.106+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:27:56.106+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:27:56.134+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:27:56.133+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:27:56.152+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.009 seconds
+[2023-07-30T21:30:06.291+0300] {processor.py:157} INFO - Started process (PID=35657) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:30:06.292+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:30:06.293+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:30:06.293+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:30:06.330+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:30:07.355+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:30:07.354+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:30:07.373+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:30:07.373+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:30:07.394+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.103 seconds
+[2023-07-30T21:32:09.721+0300] {processor.py:157} INFO - Started process (PID=35747) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:32:09.722+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:32:09.722+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:32:09.722+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:32:09.758+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:32:10.632+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:32:10.632+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:32:10.651+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:32:10.651+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:32:10.670+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.950 seconds
+[2023-07-30T21:34:17.911+0300] {processor.py:157} INFO - Started process (PID=35834) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:34:17.912+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:34:17.913+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:34:17.913+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:34:17.952+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:34:18.863+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:34:18.863+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:34:18.884+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:34:18.884+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:34:18.904+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.993 seconds
+[2023-07-30T21:36:28.679+0300] {processor.py:157} INFO - Started process (PID=35949) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:36:28.680+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:36:28.680+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:36:28.680+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:36:28.716+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:36:29.739+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:36:29.739+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:36:29.757+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:36:29.757+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:36:29.778+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.100 seconds
+[2023-07-30T21:38:39.991+0300] {processor.py:157} INFO - Started process (PID=36048) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:38:39.992+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:38:39.993+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:38:39.993+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:38:40.029+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:38:40.918+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:38:40.917+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:38:40.937+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:38:40.936+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:38:40.955+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.965 seconds
+[2023-07-30T21:40:48.071+0300] {processor.py:157} INFO - Started process (PID=36166) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:40:48.072+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:40:48.072+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:40:48.072+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:40:48.108+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:40:49.085+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:40:49.084+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:40:49.102+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:40:49.102+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:40:49.123+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.053 seconds
+[2023-07-30T21:42:59.175+0300] {processor.py:157} INFO - Started process (PID=36271) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:42:59.176+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:42:59.177+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:42:59.177+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:42:59.212+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:43:00.102+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:43:00.102+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:43:00.122+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:43:00.121+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:43:00.140+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.965 seconds
+[2023-07-30T21:45:08.913+0300] {processor.py:157} INFO - Started process (PID=36365) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:45:08.914+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:45:08.914+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:45:08.914+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:45:08.949+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:45:09.923+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:45:09.922+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:45:09.940+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:45:09.940+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:45:09.960+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.048 seconds
+[2023-07-30T21:47:19.015+0300] {processor.py:157} INFO - Started process (PID=36448) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:47:19.017+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:47:19.018+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:47:19.017+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:47:19.055+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:47:19.968+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:47:19.968+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:47:19.988+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:47:19.988+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:47:20.007+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.993 seconds
+[2023-07-30T21:49:27.676+0300] {processor.py:157} INFO - Started process (PID=36542) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:49:27.677+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:49:27.678+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:49:27.678+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:49:27.715+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:49:28.721+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:49:28.720+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:49:28.745+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:49:28.745+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:49:28.765+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.090 seconds
+[2023-07-30T21:51:38.392+0300] {processor.py:157} INFO - Started process (PID=36640) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:51:38.393+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:51:38.394+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:51:38.394+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:51:38.430+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:51:39.444+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:51:39.444+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:51:39.462+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:51:39.462+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:51:39.483+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.092 seconds
+[2023-07-30T21:53:47.724+0300] {processor.py:157} INFO - Started process (PID=36734) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:53:47.725+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:53:47.726+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:53:47.726+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:53:47.761+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:53:48.655+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:53:48.655+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:53:48.675+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:53:48.674+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:53:48.694+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.971 seconds
+[2023-07-30T21:55:58.391+0300] {processor.py:157} INFO - Started process (PID=36855) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:55:58.392+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:55:58.392+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:55:58.392+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:55:58.430+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:55:59.474+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:55:59.473+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:55:59.492+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:55:59.492+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:55:59.537+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.147 seconds
+[2023-07-30T21:58:10.269+0300] {processor.py:157} INFO - Started process (PID=36951) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:58:10.270+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T21:58:10.271+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:58:10.271+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:58:10.308+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T21:58:11.215+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:58:11.215+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:58:11.236+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:58:11.235+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T21:58:11.255+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.987 seconds
+[2023-07-30T22:00:25.413+0300] {processor.py:157} INFO - Started process (PID=37056) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:00:25.414+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:00:25.414+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:00:25.414+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:00:25.450+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:00:26.436+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:00:26.436+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:00:26.454+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:00:26.454+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:00:26.474+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.063 seconds
+[2023-07-30T22:02:39.190+0300] {processor.py:157} INFO - Started process (PID=37160) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:02:39.191+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:02:39.191+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:02:39.191+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:02:39.231+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:02:40.112+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:02:40.112+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:02:40.132+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:02:40.131+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:02:40.150+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.961 seconds
+[2023-07-30T22:04:53.088+0300] {processor.py:157} INFO - Started process (PID=37270) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:04:53.089+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:04:53.089+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:04:53.089+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:04:53.125+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:04:54.032+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:04:54.032+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:04:54.053+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:04:54.053+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:04:54.072+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.985 seconds
+[2023-07-30T22:07:09.030+0300] {processor.py:157} INFO - Started process (PID=37368) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:07:09.031+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:07:09.032+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:07:09.031+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:07:09.069+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:07:10.111+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:07:10.110+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:07:10.131+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:07:10.130+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:07:10.155+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.126 seconds
+[2023-07-30T22:09:23.256+0300] {processor.py:157} INFO - Started process (PID=37474) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:09:23.258+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:09:23.258+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:09:23.258+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:09:23.293+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:09:24.212+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:09:24.211+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:09:24.232+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:09:24.232+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:09:24.251+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.995 seconds
+[2023-07-30T22:11:36.777+0300] {processor.py:157} INFO - Started process (PID=37573) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:11:36.778+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:11:36.779+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:11:36.779+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:11:36.817+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:11:37.814+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:11:37.814+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:11:37.832+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:11:37.832+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:11:37.853+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.076 seconds
+[2023-07-30T22:13:52.319+0300] {processor.py:157} INFO - Started process (PID=37694) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:13:52.320+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:13:52.321+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:13:52.321+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:13:52.356+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:13:53.282+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:13:53.282+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:13:53.302+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:13:53.301+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:13:53.320+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.002 seconds
+[2023-07-30T22:16:06.480+0300] {processor.py:157} INFO - Started process (PID=37787) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:16:06.481+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:16:06.482+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:16:06.482+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:16:06.520+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:16:07.532+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:16:07.532+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:16:07.549+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:16:07.549+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:16:07.570+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.091 seconds
+[2023-07-30T22:18:21.261+0300] {processor.py:157} INFO - Started process (PID=37897) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:18:21.262+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:18:21.263+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:18:21.263+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:18:21.300+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:18:22.199+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:18:22.199+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:18:22.219+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:18:22.219+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:18:22.238+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.978 seconds
+[2023-07-30T22:20:35.342+0300] {processor.py:157} INFO - Started process (PID=38030) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:20:35.344+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:20:35.346+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:20:35.345+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:20:35.402+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:20:36.436+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:20:36.436+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:20:36.455+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:20:36.454+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:20:36.476+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.135 seconds
+[2023-07-30T22:22:51.434+0300] {processor.py:157} INFO - Started process (PID=38152) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:22:51.435+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:22:51.436+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:22:51.435+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:22:51.471+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:22:52.370+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:22:52.370+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:22:52.389+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:22:52.389+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:22:52.409+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.975 seconds
+[2023-07-30T22:25:05.328+0300] {processor.py:157} INFO - Started process (PID=38292) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:25:05.329+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:25:05.329+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:25:05.329+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:25:05.366+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:25:06.378+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:25:06.377+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:25:06.395+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:25:06.395+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:25:06.416+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.089 seconds
+[2023-07-30T22:27:21.954+0300] {processor.py:157} INFO - Started process (PID=38415) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:27:21.955+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:27:21.955+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:27:21.955+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:27:21.992+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:27:22.899+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:27:22.898+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:27:22.918+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:27:22.918+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:27:22.937+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.984 seconds
+[2023-07-30T22:29:35.890+0300] {processor.py:157} INFO - Started process (PID=38544) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:29:35.891+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:29:35.891+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:29:35.891+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:29:35.926+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:29:36.819+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:29:36.819+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:29:36.839+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:29:36.838+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:29:36.857+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.968 seconds
+[2023-07-30T22:31:49.977+0300] {processor.py:157} INFO - Started process (PID=38633) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:31:49.978+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:31:49.978+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:31:49.978+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:31:50.013+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:31:51.016+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:31:51.016+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:31:51.035+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:31:51.034+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:31:51.055+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.079 seconds
+[2023-07-30T22:34:03.648+0300] {processor.py:157} INFO - Started process (PID=38729) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:34:03.649+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:34:03.650+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:34:03.649+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:34:03.686+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:34:04.609+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:34:04.609+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:34:04.630+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:34:04.630+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:34:04.649+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.002 seconds
+[2023-07-30T22:36:16.467+0300] {processor.py:157} INFO - Started process (PID=38841) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:36:16.468+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:36:16.468+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:36:16.468+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:36:16.505+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:36:17.510+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:36:17.509+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:36:17.529+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:36:17.529+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:36:17.571+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.105 seconds
+[2023-07-30T22:38:30.114+0300] {processor.py:157} INFO - Started process (PID=38956) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:38:30.115+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:38:30.116+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:38:30.116+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:38:30.152+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:38:31.054+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:38:31.054+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:38:31.073+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:38:31.073+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:38:31.092+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.979 seconds
+[2023-07-30T22:40:41.265+0300] {processor.py:157} INFO - Started process (PID=39073) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:40:41.266+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:40:41.267+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:40:41.267+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:40:41.303+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:40:42.298+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:40:42.298+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:40:42.316+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:40:42.316+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:40:42.337+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.072 seconds
+[2023-07-30T22:42:57.210+0300] {processor.py:157} INFO - Started process (PID=39199) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:42:57.211+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:42:57.212+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:42:57.211+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:42:57.250+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:42:58.159+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:42:58.159+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:42:58.179+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:42:58.178+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:42:58.197+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.988 seconds
+[2023-07-30T22:45:08.012+0300] {processor.py:157} INFO - Started process (PID=39299) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:45:08.013+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:45:08.014+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:45:08.014+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:45:08.050+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:45:09.052+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:45:09.052+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:45:09.070+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:45:09.069+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:45:09.090+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.079 seconds
+[2023-07-30T22:47:22.497+0300] {processor.py:157} INFO - Started process (PID=39406) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:47:22.499+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:47:22.499+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:47:22.499+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:47:22.551+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:47:23.498+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:47:23.498+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:47:23.519+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:47:23.518+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:47:23.537+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.040 seconds
+[2023-07-30T22:49:35.240+0300] {processor.py:157} INFO - Started process (PID=39535) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:49:35.241+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:49:35.242+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:49:35.241+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:49:35.278+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:49:36.192+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:49:36.192+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:49:36.213+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:49:36.213+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:49:36.233+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.994 seconds
+[2023-07-30T22:51:51.470+0300] {processor.py:157} INFO - Started process (PID=39645) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:51:51.471+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:51:51.472+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:51:51.472+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:51:51.508+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:51:52.504+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:51:52.504+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:51:52.522+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:51:52.522+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:51:52.542+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.073 seconds
+[2023-07-30T22:54:07.972+0300] {processor.py:157} INFO - Started process (PID=39770) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:54:07.973+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:54:07.973+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:54:07.973+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:54:08.012+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:54:08.927+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:54:08.926+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:54:08.948+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:54:08.947+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:54:08.967+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.996 seconds
+[2023-07-30T22:56:24.469+0300] {processor.py:157} INFO - Started process (PID=39880) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:56:24.471+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:56:24.471+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:56:24.471+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:56:24.510+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:56:25.519+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:56:25.519+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:56:25.537+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:56:25.537+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:56:25.558+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.090 seconds
+[2023-07-30T22:58:40.534+0300] {processor.py:157} INFO - Started process (PID=39993) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:58:40.535+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T22:58:40.536+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:58:40.536+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:58:40.572+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T22:58:41.483+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:58:41.482+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:58:41.503+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:58:41.503+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T22:58:41.522+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.989 seconds
+[2023-07-30T23:00:56.395+0300] {processor.py:157} INFO - Started process (PID=40117) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T23:00:56.396+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T23:00:56.397+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:00:56.396+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T23:00:56.434+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T23:00:57.440+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:00:57.439+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T23:00:57.459+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:00:57.458+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T23:00:57.481+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.087 seconds
+[2023-07-30T23:03:12.186+0300] {processor.py:157} INFO - Started process (PID=40247) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T23:03:12.188+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-07-30T23:03:12.188+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:03:12.188+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T23:03:12.228+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-07-30T23:03:13.154+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:03:13.154+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T23:03:13.174+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:03:13.174+0300] {dag.py:3504} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-07-30T23:03:13.193+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 1.008 seconds

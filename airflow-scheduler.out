@@ -1,0 +1,88 @@
+[[34m2023-07-30T18:52:33.942+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T18:57:36.273+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T19:02:38.045+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T19:07:39.767+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T19:12:41.675+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T19:17:42.353+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T19:22:43.232+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T19:27:44.896+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:11:11.514+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:16:12.097+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:21:12.912+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:26:15.491+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:31:16.347+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:36:18.794+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:41:20.582+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:46:22.873+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:51:24.808+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T20:56:26.063+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:01:28.546+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:06:31.008+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:11:33.329+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:16:35.248+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:21:37.853+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:26:39.090+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:31:41.539+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:36:44.113+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:41:46.601+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:46:47.290+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:51:49.811+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T21:56:52.451+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:01:52.959+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:06:53.326+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:11:55.588+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:16:56.999+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:21:57.297+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:26:59.100+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:32:01.590+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:37:02.574+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:42:03.030+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:47:03.643+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:52:03.919+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T22:57:04.995+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-30T23:02:07.092+0300[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-07-31T03:58:47.782+0300[0m] {[34mscheduler_job_runner.py:[0m852} ERROR[0m - Exception when executing SchedulerJob._run_scheduler_loop[0m
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 835, in _execute
+    self._run_scheduler_loop()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 969, in _run_scheduler_loop
+    num_queued_tis = self._do_scheduling(session)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1043, in _do_scheduling
+    self._create_dagruns_for_dags(guard, session)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/utils/retries.py", line 78, in wrapped_function
+    for attempt in run_with_db_retries(max_retries=retries, logger=logger, **retry_kwargs):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/utils/retries.py", line 87, in wrapped_function
+    return func(*args, **kwargs)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1105, in _create_dagruns_for_dags
+    query, dataset_triggered_dag_info = DagModel.dags_needing_dagruns(session)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/models/dag.py", line 3430, in dags_needing_dagruns
+    .all()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2773, in all
+    return self._iter().all()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+    result = self.session.execute(
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: dag_run.dag_id, dag_run.run_id
+[SQL: INSERT INTO dag_run (dag_id, queued_at, execution_date, start_date, end_date, state, run_id, creating_job_id, external_trigger, run_type, conf, data_interval_start, data_interval_end, last_scheduling_decision, dag_hash, log_template_id, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT max(log_template.id) AS max_1 
+FROM log_template), ?)]
+[parameters: ('data_loading_dag', '2023-07-31 00:58:47.626468', '2023-07-30 00:00:00.000000', None, None, <DagRunState.QUEUED: 'queued'>, 'scheduled__2023-07-30T00:00:00+00:00', 1, 0, <DagRunType.SCHEDULED: 'scheduled'>, <memory at 0x10955cac0>, '2023-07-30 00:00:00.000000', '2023-07-31 00:00:00.000000', None, '9a4fc803d2e75b4ceb29b7a9eb157ec6', '2023-07-31 00:58:47.627785')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)[0m
+[[34m2023-07-31T03:58:48.824+0300[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 28907. PIDs of all processes in the group: [28907][0m
+[[34m2023-07-31T03:58:48.824+0300[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 28907[0m
+[[34m2023-07-31T03:58:49.443+0300[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=28907, status='terminated', exitcode=0, started='18:27:25') (28907) terminated with exit code 0[0m
+[[34m2023-07-31T03:58:49.445+0300[0m] {[34mscheduler_job_runner.py:[0m864} INFO[0m - Exited execute loop[0m

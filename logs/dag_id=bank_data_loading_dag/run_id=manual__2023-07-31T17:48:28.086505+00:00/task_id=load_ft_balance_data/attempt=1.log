@@ -1,0 +1,15 @@
+[2023-07-31T20:48:55.675+0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bank_data_loading_dag.load_ft_balance_data manual__2023-07-31T17:48:28.086505+00:00 [queued]>
+[2023-07-31T20:48:55.684+0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bank_data_loading_dag.load_ft_balance_data manual__2023-07-31T17:48:28.086505+00:00 [queued]>
+[2023-07-31T20:48:55.685+0300] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-31T20:48:55.698+0300] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_ft_balance_data> on 2023-07-31 17:48:28.086505+00:00
+[2023-07-31T20:48:55.703+0300] {standard_task_runner.py:57} INFO - Started process 54632 to run task
+[2023-07-31T20:48:55.711+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'bank_data_loading_dag', 'load_ft_balance_data', 'manual__2023-07-31T17:48:28.086505+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/mydag.py', '--cfg-path', '/var/folders/5c/9q48lshd61z8kg1c11xx5g4c0000gn/T/tmp2fcy3l8x']
+[2023-07-31T20:48:55.714+0300] {standard_task_runner.py:85} INFO - Job 21: Subtask load_ft_balance_data
+[2023-07-31T20:48:55.771+0300] {task_command.py:410} INFO - Running <TaskInstance: bank_data_loading_dag.load_ft_balance_data manual__2023-07-31T17:48:28.086505+00:00 [running]> on host macbook-pro-olga.local
+[2023-07-31T20:48:55.855+0300] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='bank_data_loading_dag' AIRFLOW_CTX_TASK_ID='load_ft_balance_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-31T17:48:28.086505+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-31T17:48:28.086505+00:00'
+[2023-07-31T20:48:55.893+0300] {logging_mixin.py:150} INFO - Соединение с базой данных успешно установлено.
+[2023-07-31T20:48:55.934+0300] {logging_mixin.py:150} INFO - Импорт данных успешно выполнен
+[2023-07-31T20:48:55.934+0300] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-31T20:48:55.941+0300] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=bank_data_loading_dag, task_id=load_ft_balance_data, execution_date=20230731T174828, start_date=20230731T174855, end_date=20230731T174855
+[2023-07-31T20:48:55.987+0300] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-31T20:48:56.015+0300] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

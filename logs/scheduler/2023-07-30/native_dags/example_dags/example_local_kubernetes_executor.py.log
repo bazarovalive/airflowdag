@@ -1,0 +1,627 @@
+[2023-07-30T18:29:07.479+0300] {processor.py:157} INFO - Started process (PID=28964) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:29:07.480+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T18:29:07.481+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:29:07.481+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:29:07.532+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:29:07.532+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T18:29:07.533+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:29:07.533+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T18:29:07.533+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:29:08.409+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.931 seconds
+[2023-07-30T18:31:38.975+0300] {processor.py:157} INFO - Started process (PID=29078) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:31:38.976+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T18:31:38.977+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:31:38.977+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:31:39.025+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:31:39.025+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T18:31:39.026+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:31:39.026+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T18:31:39.026+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:31:39.851+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.877 seconds
+[2023-07-30T18:35:36.786+0300] {processor.py:157} INFO - Started process (PID=29230) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:35:36.787+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T18:35:36.788+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:35:36.788+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:35:36.836+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:35:36.836+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T18:35:36.836+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:35:36.836+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T18:35:36.837+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:35:37.687+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.901 seconds
+[2023-07-30T18:39:27.959+0300] {processor.py:157} INFO - Started process (PID=29375) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:39:27.961+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T18:39:27.961+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:39:27.961+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:39:28.010+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:39:28.010+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T18:39:28.011+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:39:28.011+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T18:39:28.011+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:39:28.931+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.972 seconds
+[2023-07-30T18:43:26.874+0300] {processor.py:157} INFO - Started process (PID=29581) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:43:26.875+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T18:43:26.875+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:43:26.875+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:43:26.924+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:43:26.924+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T18:43:26.925+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:43:26.925+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T18:43:26.925+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:43:27.775+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.902 seconds
+[2023-07-30T18:47:20.761+0300] {processor.py:157} INFO - Started process (PID=29792) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:47:20.762+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T18:47:20.763+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:47:20.763+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:47:20.812+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:47:20.811+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T18:47:20.812+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:47:20.812+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T18:47:20.812+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:47:21.652+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.891 seconds
+[2023-07-30T18:51:11.420+0300] {processor.py:157} INFO - Started process (PID=29984) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:51:11.421+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T18:51:11.421+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:51:11.421+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:51:11.475+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:51:11.475+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T18:51:11.476+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:51:11.475+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T18:51:11.476+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:51:12.361+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.943 seconds
+[2023-07-30T18:54:57.276+0300] {processor.py:157} INFO - Started process (PID=30182) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:54:57.277+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T18:54:57.278+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:54:57.278+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:54:57.327+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:54:57.326+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T18:54:57.327+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:54:57.327+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T18:54:57.327+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:54:58.157+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.881 seconds
+[2023-07-30T18:58:45.578+0300] {processor.py:157} INFO - Started process (PID=30371) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:58:45.579+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T18:58:45.579+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:58:45.579+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:58:45.628+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:58:45.628+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T18:58:45.629+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:58:45.629+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T18:58:45.629+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T18:58:46.473+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.896 seconds
+[2023-07-30T19:02:53.940+0300] {processor.py:157} INFO - Started process (PID=30527) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:02:53.941+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T19:02:53.942+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:02:53.942+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:02:53.991+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:02:53.991+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T19:02:53.991+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:02:53.991+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T19:02:53.992+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:02:54.846+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.906 seconds
+[2023-07-30T19:07:02.685+0300] {processor.py:157} INFO - Started process (PID=30687) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:07:02.686+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T19:07:02.686+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:07:02.686+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:07:02.736+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:07:02.735+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T19:07:02.736+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:07:02.736+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T19:07:02.736+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:07:03.571+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.887 seconds
+[2023-07-30T19:10:58.380+0300] {processor.py:157} INFO - Started process (PID=30820) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:10:58.381+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T19:10:58.382+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:10:58.382+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:10:58.431+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:10:58.430+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T19:10:58.431+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:10:58.431+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T19:10:58.431+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:10:59.272+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.892 seconds
+[2023-07-30T19:15:14.321+0300] {processor.py:157} INFO - Started process (PID=30979) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:15:14.322+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T19:15:14.322+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:15:14.322+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:15:14.371+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:15:14.371+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T19:15:14.371+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:15:14.371+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T19:15:14.372+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:15:15.213+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.893 seconds
+[2023-07-30T19:19:20.959+0300] {processor.py:157} INFO - Started process (PID=31194) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:19:20.960+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T19:19:20.960+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:19:20.960+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:19:21.009+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:19:21.008+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T19:19:21.009+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:19:21.009+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T19:19:21.009+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:19:21.841+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.883 seconds
+[2023-07-30T19:23:35.651+0300] {processor.py:157} INFO - Started process (PID=31346) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:23:35.652+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T19:23:35.653+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:23:35.652+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:23:35.701+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:23:35.701+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T19:23:35.702+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:23:35.701+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T19:23:35.702+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:23:36.546+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.896 seconds
+[2023-07-30T19:27:36.999+0300] {processor.py:157} INFO - Started process (PID=31488) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:27:37.001+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T19:27:37.001+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:27:37.001+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:27:37.051+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:27:37.051+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T19:27:37.052+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:27:37.051+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T19:27:37.052+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T19:27:37.902+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.903 seconds
+[2023-07-30T20:11:46.741+0300] {processor.py:157} INFO - Started process (PID=31767) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:11:46.742+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:11:46.743+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:11:46.742+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:11:46.792+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:11:46.792+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:11:46.792+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:11:46.792+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:11:46.793+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:11:47.873+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 1.133 seconds
+[2023-07-30T20:14:14.205+0300] {processor.py:157} INFO - Started process (PID=31916) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:14:14.206+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:14:14.207+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:14:14.207+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:14:14.258+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:14:14.258+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:14:14.259+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:14:14.258+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:14:14.259+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:14:15.190+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.986 seconds
+[2023-07-30T20:18:36.013+0300] {processor.py:157} INFO - Started process (PID=32139) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:18:36.014+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:18:36.014+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:18:36.014+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:18:36.064+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:18:36.063+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:18:36.064+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:18:36.064+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:18:36.064+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:18:36.938+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.926 seconds
+[2023-07-30T20:23:09.567+0300] {processor.py:157} INFO - Started process (PID=32415) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:23:09.568+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:23:09.569+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:23:09.569+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:23:09.618+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:23:09.618+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:23:09.618+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:23:09.618+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:23:09.619+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:23:10.521+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.954 seconds
+[2023-07-30T20:27:30.657+0300] {processor.py:157} INFO - Started process (PID=32598) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:27:30.658+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:27:30.658+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:27:30.658+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:27:30.708+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:27:30.707+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:27:30.708+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:27:30.708+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:27:30.708+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:27:31.568+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.912 seconds
+[2023-07-30T20:31:50.312+0300] {processor.py:157} INFO - Started process (PID=32808) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:31:50.313+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:31:50.314+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:31:50.314+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:31:50.381+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:31:50.381+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:31:50.382+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:31:50.382+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:31:50.382+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:31:51.487+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 1.175 seconds
+[2023-07-30T20:36:05.608+0300] {processor.py:157} INFO - Started process (PID=33061) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:36:05.609+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:36:05.610+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:36:05.610+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:36:05.659+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:36:05.659+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:36:05.659+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:36:05.659+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:36:05.660+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:36:06.551+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.944 seconds
+[2023-07-30T20:40:21.199+0300] {processor.py:157} INFO - Started process (PID=33308) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:40:21.200+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:40:21.200+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:40:21.200+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:40:21.250+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:40:21.249+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:40:21.250+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:40:21.250+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:40:21.250+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:40:22.113+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.914 seconds
+[2023-07-30T20:44:39.167+0300] {processor.py:157} INFO - Started process (PID=33588) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:44:39.168+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:44:39.168+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:44:39.168+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:44:39.219+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:44:39.218+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:44:39.219+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:44:39.219+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:44:39.219+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:44:40.074+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.908 seconds
+[2023-07-30T20:48:57.833+0300] {processor.py:157} INFO - Started process (PID=33808) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:48:57.834+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:48:57.835+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:48:57.835+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:48:57.886+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:48:57.886+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:48:57.886+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:48:57.886+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:48:57.887+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:48:58.777+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.944 seconds
+[2023-07-30T20:53:26.912+0300] {processor.py:157} INFO - Started process (PID=34043) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:53:26.914+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:53:26.914+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:53:26.914+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:53:26.966+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:53:26.966+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:53:26.967+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:53:26.966+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:53:26.967+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:53:27.827+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.915 seconds
+[2023-07-30T20:57:48.640+0300] {processor.py:157} INFO - Started process (PID=34249) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:57:48.641+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T20:57:48.642+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:57:48.642+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:57:48.692+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:57:48.692+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T20:57:48.693+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:57:48.692+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T20:57:48.693+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T20:57:49.602+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.963 seconds
+[2023-07-30T21:00:06.938+0300] {processor.py:157} INFO - Started process (PID=34341) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:00:06.939+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:00:06.940+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:00:06.939+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:00:06.991+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:00:06.990+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:00:06.991+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:00:06.991+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:00:06.991+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:00:07.884+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.946 seconds
+[2023-07-30T21:04:34.475+0300] {processor.py:157} INFO - Started process (PID=34509) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:04:34.476+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:04:34.476+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:04:34.476+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:04:34.528+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:04:34.528+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:04:34.529+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:04:34.529+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:04:34.529+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:04:35.423+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.949 seconds
+[2023-07-30T21:06:57.978+0300] {processor.py:157} INFO - Started process (PID=34612) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:06:57.979+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:06:57.980+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:06:57.980+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:06:58.034+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:06:58.033+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:06:58.034+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:06:58.034+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:06:58.034+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:06:58.912+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.935 seconds
+[2023-07-30T21:11:22.833+0300] {processor.py:157} INFO - Started process (PID=34830) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:11:22.834+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:11:22.835+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:11:22.835+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:11:22.885+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:11:22.885+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:11:22.886+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:11:22.886+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:11:22.886+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:11:23.770+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.938 seconds
+[2023-07-30T21:16:02.299+0300] {processor.py:157} INFO - Started process (PID=35057) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:16:02.301+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:16:02.301+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:16:02.301+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:16:02.351+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:16:02.351+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:16:02.352+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:16:02.351+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:16:02.352+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:16:03.248+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.950 seconds
+[2023-07-30T21:20:31.049+0300] {processor.py:157} INFO - Started process (PID=35223) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:20:31.050+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:20:31.051+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:20:31.051+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:20:31.103+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:20:31.103+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:20:31.103+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:20:31.103+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:20:31.104+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:20:32.024+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.976 seconds
+[2023-07-30T21:24:47.632+0300] {processor.py:157} INFO - Started process (PID=35401) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:24:47.633+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:24:47.633+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:24:47.633+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:24:47.683+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:24:47.683+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:24:47.683+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:24:47.683+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:24:47.683+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:24:48.576+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.945 seconds
+[2023-07-30T21:29:13.563+0300] {processor.py:157} INFO - Started process (PID=35622) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:29:13.564+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:29:13.565+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:29:13.565+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:29:13.615+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:29:13.614+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:29:13.615+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:29:13.615+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:29:13.615+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:29:14.488+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.926 seconds
+[2023-07-30T21:33:22.558+0300] {processor.py:157} INFO - Started process (PID=35792) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:33:22.559+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:33:22.560+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:33:22.560+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:33:22.611+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:33:22.611+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:33:22.611+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:33:22.611+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:33:22.612+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:33:23.475+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.918 seconds
+[2023-07-30T21:37:44.682+0300] {processor.py:157} INFO - Started process (PID=36000) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:37:44.684+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:37:44.684+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:37:44.684+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:37:44.734+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:37:44.734+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:37:44.734+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:37:44.734+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:37:44.735+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:37:45.604+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.922 seconds
+[2023-07-30T21:42:02.685+0300] {processor.py:157} INFO - Started process (PID=36228) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:42:02.686+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:42:02.686+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:42:02.686+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:42:02.737+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:42:02.737+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:42:02.738+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:42:02.737+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:42:02.738+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:42:03.633+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.949 seconds
+[2023-07-30T21:46:24.294+0300] {processor.py:157} INFO - Started process (PID=36408) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:46:24.296+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:46:24.296+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:46:24.296+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:46:24.346+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:46:24.346+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:46:24.346+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:46:24.346+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:46:24.346+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:46:25.233+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.940 seconds
+[2023-07-30T21:50:43.996+0300] {processor.py:157} INFO - Started process (PID=36595) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:50:43.997+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:50:43.998+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:50:43.998+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:50:44.049+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:50:44.048+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:50:44.049+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:50:44.049+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:50:44.049+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:50:44.933+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.937 seconds
+[2023-07-30T21:55:02.116+0300] {processor.py:157} INFO - Started process (PID=36818) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:55:02.117+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:55:02.117+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:55:02.117+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:55:02.171+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:55:02.170+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:55:02.171+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:55:02.171+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:55:02.171+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:55:03.268+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 1.153 seconds
+[2023-07-30T21:59:25.970+0300] {processor.py:157} INFO - Started process (PID=37001) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:59:25.971+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T21:59:25.972+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:59:25.972+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:59:26.022+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:59:26.022+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T21:59:26.023+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:59:26.022+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T21:59:26.023+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T21:59:26.950+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.980 seconds
+[2023-07-30T22:03:54.402+0300] {processor.py:157} INFO - Started process (PID=37222) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:03:54.403+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:03:54.403+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:03:54.403+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:03:54.454+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:03:54.454+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:03:54.454+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:03:54.454+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:03:54.455+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:03:55.333+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.932 seconds
+[2023-07-30T22:08:24.914+0300] {processor.py:157} INFO - Started process (PID=37427) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:08:24.915+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:08:24.916+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:08:24.916+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:08:24.966+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:08:24.965+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:08:24.966+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:08:24.966+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:08:24.966+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:08:25.837+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.924 seconds
+[2023-07-30T22:12:53.187+0300] {processor.py:157} INFO - Started process (PID=37635) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:12:53.188+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:12:53.189+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:12:53.189+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:12:53.238+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:12:53.238+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:12:53.239+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:12:53.239+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:12:53.239+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:12:54.117+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.930 seconds
+[2023-07-30T22:17:22.781+0300] {processor.py:157} INFO - Started process (PID=37851) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:17:22.782+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:17:22.783+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:17:22.783+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:17:22.834+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:17:22.834+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:17:22.835+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:17:22.834+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:17:22.835+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:17:23.735+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.954 seconds
+[2023-07-30T22:21:52.583+0300] {processor.py:157} INFO - Started process (PID=38099) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:21:52.584+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:21:52.585+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:21:52.585+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:21:52.635+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:21:52.634+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:21:52.635+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:21:52.635+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:21:52.635+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:21:53.522+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.940 seconds
+[2023-07-30T22:26:23.127+0300] {processor.py:157} INFO - Started process (PID=38356) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:26:23.128+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:26:23.129+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:26:23.129+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:26:23.183+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:26:23.183+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:26:23.183+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:26:23.183+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:26:23.184+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:26:24.110+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.983 seconds
+[2023-07-30T22:30:52.142+0300] {processor.py:157} INFO - Started process (PID=38596) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:30:52.143+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:30:52.143+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:30:52.143+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:30:52.192+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:30:52.191+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:30:52.192+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:30:52.192+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:30:52.192+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:30:53.073+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.932 seconds
+[2023-07-30T22:35:18.699+0300] {processor.py:157} INFO - Started process (PID=38794) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:35:18.700+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:35:18.701+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:35:18.701+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:35:18.749+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:35:18.749+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:35:18.750+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:35:18.750+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:35:18.750+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:35:19.627+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.928 seconds
+[2023-07-30T22:39:42.918+0300] {processor.py:157} INFO - Started process (PID=39010) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:39:42.919+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:39:42.920+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:39:42.920+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:39:42.972+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:39:42.972+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:39:42.972+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:39:42.972+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:39:42.973+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:39:43.867+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.950 seconds
+[2023-07-30T22:44:08.098+0300] {processor.py:157} INFO - Started process (PID=39255) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:44:08.099+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:44:08.099+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:44:08.099+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:44:08.151+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:44:08.150+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:44:08.151+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:44:08.151+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:44:08.151+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:44:09.058+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.961 seconds
+[2023-07-30T22:48:36.291+0300] {processor.py:157} INFO - Started process (PID=39479) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:48:36.292+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:48:36.293+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:48:36.293+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:48:36.342+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:48:36.341+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:48:36.342+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:48:36.342+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:48:36.342+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:48:37.259+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.969 seconds
+[2023-07-30T22:53:07.858+0300] {processor.py:157} INFO - Started process (PID=39728) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:53:07.860+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:53:07.860+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:53:07.860+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:53:07.912+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:53:07.912+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:53:07.912+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:53:07.912+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:53:07.913+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:53:08.778+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.920 seconds
+[2023-07-30T22:57:41.070+0300] {processor.py:157} INFO - Started process (PID=39941) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:57:41.071+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T22:57:41.072+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:57:41.072+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:57:41.122+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:57:41.122+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T22:57:41.123+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:57:41.123+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T22:57:41.123+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T22:57:42.009+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.940 seconds
+[2023-07-30T23:02:12.572+0300] {processor.py:157} INFO - Started process (PID=40180) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T23:02:12.573+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-07-30T23:02:12.574+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:02:12.574+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T23:02:12.625+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:02:12.624+0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-07-30T23:02:12.625+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:02:12.625+0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-07-30T23:02:12.625+0300] {processor.py:838} WARNING - No viable dags retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-07-30T23:02:13.517+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.946 seconds

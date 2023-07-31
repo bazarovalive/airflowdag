@@ -1,0 +1,89 @@
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/lockfile/pidlockfile.py", line 77, in acquire
+    write_pid_to_pidfile(self.path)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/lockfile/pidlockfile.py", line 161, in write_pid_to_pidfile
+    pidfile_fd = os.open(pidfile_path, open_flags, open_mode)
+FileExistsError: [Errno 17] File exists: '/Users/olgastash/airflow/airflow-scheduler.pid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/__main__.py", line 48, in main
+    args.func(args)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 52, in command
+    return func(*args, **kwargs)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/utils/cli.py", line 112, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 71, in scheduler
+    with ctx:
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/daemon/daemon.py", line 365, in __enter__
+    self.open()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/daemon/daemon.py", line 357, in open
+    self.pidfile.__enter__()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/lockfile/__init__.py", line 197, in __enter__
+    self.acquire()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/daemon/pidfile.py", line 49, in acquire
+    super().acquire(timeout, *args, **kwargs)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/lockfile/pidlockfile.py", line 87, in acquire
+    raise AlreadyLocked("%s is already locked" %
+lockfile.AlreadyLocked: /Users/olgastash/airflow/airflow-scheduler.pid is already locked
+Traceback (most recent call last):
+  File "/Users/olgastash/neoflex_env_airflow/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/__main__.py", line 48, in main
+    args.func(args)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 52, in command
+    return func(*args, **kwargs)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/utils/cli.py", line 112, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 72, in scheduler
+    _run_scheduler_job(job_runner, skip_serve_logs=args.skip_serve_logs)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 42, in _run_scheduler_job
+    run_job(job=job_runner.job, execute_callable=job_runner._execute)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/job.py", line 281, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/job.py", line 310, in execute_job
+    ret = execute_callable()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 835, in _execute
+    self._run_scheduler_loop()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 969, in _run_scheduler_loop
+    num_queued_tis = self._do_scheduling(session)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1043, in _do_scheduling
+    self._create_dagruns_for_dags(guard, session)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/utils/retries.py", line 78, in wrapped_function
+    for attempt in run_with_db_retries(max_retries=retries, logger=logger, **retry_kwargs):
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/utils/retries.py", line 87, in wrapped_function
+    return func(*args, **kwargs)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1105, in _create_dagruns_for_dags
+    query, dataset_triggered_dag_info = DagModel.dags_needing_dagruns(session)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/models/dag.py", line 3430, in dags_needing_dagruns
+    .all()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2773, in all
+    return self._iter().all()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+    result = self.session.execute(
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: dag_run.dag_id, dag_run.run_id
+[SQL: INSERT INTO dag_run (dag_id, queued_at, execution_date, start_date, end_date, state, run_id, creating_job_id, external_trigger, run_type, conf, data_interval_start, data_interval_end, last_scheduling_decision, dag_hash, log_template_id, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT max(log_template.id) AS max_1 
+FROM log_template), ?)]
+[parameters: ('data_loading_dag', '2023-07-31 00:58:47.626468', '2023-07-30 00:00:00.000000', None, None, <DagRunState.QUEUED: 'queued'>, 'scheduled__2023-07-30T00:00:00+00:00', 1, 0, <DagRunType.SCHEDULED: 'scheduled'>, <memory at 0x10955cac0>, '2023-07-30 00:00:00.000000', '2023-07-31 00:00:00.000000', None, '9a4fc803d2e75b4ceb29b7a9eb157ec6', '2023-07-31 00:58:47.627785')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)

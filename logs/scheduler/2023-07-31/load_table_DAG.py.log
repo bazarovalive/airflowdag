@@ -1,0 +1,15 @@
+[2023-07-31T03:59:18.795+0300] {processor.py:157} INFO - Started process (PID=44837) to work on /Users/olgastash/airflow/dags/load_table_DAG.py
+[2023-07-31T03:59:18.796+0300] {processor.py:826} INFO - Processing file /Users/olgastash/airflow/dags/load_table_DAG.py for tasks to queue
+[2023-07-31T03:59:18.797+0300] {logging_mixin.py:150} INFO - [2023-07-31T03:59:18.797+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/airflow/dags/load_table_DAG.py
+[2023-07-31T03:59:19.296+0300] {logging_mixin.py:150} INFO -    \t     ON_DATE  ACCOUNT_RK  CURRENCY_RK  BALANCE_OUT
+0   1  31.12.2017    36237725           35     38318.13
+1   2  31.12.2017       24656           35     80533.62
+2   3  31.12.2017    18849846           34     63891.96
+3   4  31.12.2017     1972647           34     87732.10
+4   5  31.12.2017    34157174           34     97806.90
+[2023-07-31T03:59:19.315+0300] {logging_mixin.py:150} INFO -    \t     ON_DATE  ACCOUNT_RK  CURRENCY_RK  BALANCE_OUT
+0   1  31.12.2017    36237725           35     38318.13
+1   2  31.12.2017       24656           35     80533.62
+2   3  31.12.2017    18849846           34     63891.96
+3   4  31.12.2017     1972647           34     87732.10
+4   5  31.12.2017    34157174           34     97806.90

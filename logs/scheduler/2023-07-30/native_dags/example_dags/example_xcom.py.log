@@ -1,0 +1,774 @@
+[2023-07-30T18:27:58.979+0300] {processor.py:157} INFO - Started process (PID=28926) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:27:58.980+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:27:58.980+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:58.980+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:27:59.041+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:27:59.977+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:59.977+0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_xcom
+[2023-07-30T18:27:59.987+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:59.987+0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_xcom
+[2023-07-30T18:27:59.993+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:27:59.993+0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_xcom
+[2023-07-30T18:28:00.005+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:28:00.005+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:28:00.017+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:28:00.016+0300] {dag.py:2763} INFO - Creating ORM DAG for example_xcom
+[2023-07-30T18:28:00.026+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:28:00.026+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:28:00.044+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.066 seconds
+[2023-07-30T18:30:33.576+0300] {processor.py:157} INFO - Started process (PID=29032) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:30:33.577+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:30:33.578+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:30:33.578+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:30:33.635+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:30:34.497+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:30:34.497+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:30:34.515+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:30:34.515+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:30:34.535+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.960 seconds
+[2023-07-30T18:32:33.380+0300] {processor.py:157} INFO - Started process (PID=29109) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:32:33.381+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:32:33.382+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:32:33.382+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:32:33.440+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:32:34.301+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:32:34.301+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:32:34.319+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:32:34.319+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:32:34.338+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.959 seconds
+[2023-07-30T18:34:34.503+0300] {processor.py:157} INFO - Started process (PID=29185) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:34:34.504+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:34:34.505+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:34:34.505+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:34:34.565+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:34:35.414+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:34:35.414+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:34:35.432+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:34:35.432+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:34:35.453+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.951 seconds
+[2023-07-30T18:36:29.211+0300] {processor.py:157} INFO - Started process (PID=29264) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:36:29.212+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:36:29.213+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:36:29.213+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:36:29.272+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:36:30.126+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:36:30.126+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:36:30.144+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:36:30.144+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:36:30.165+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.954 seconds
+[2023-07-30T18:38:23.278+0300] {processor.py:157} INFO - Started process (PID=29334) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:38:23.279+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:38:23.279+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:38:23.279+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:38:23.339+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:38:24.189+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:38:24.188+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:38:24.207+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:38:24.207+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:38:24.226+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.949 seconds
+[2023-07-30T18:40:25.612+0300] {processor.py:157} INFO - Started process (PID=29421) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:40:25.613+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:40:25.614+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:40:25.614+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:40:25.683+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:40:26.602+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:40:26.602+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:40:26.622+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:40:26.622+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:40:26.643+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.032 seconds
+[2023-07-30T18:42:22.945+0300] {processor.py:157} INFO - Started process (PID=29538) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:42:22.946+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:42:22.946+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:42:22.946+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:42:23.005+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:42:23.851+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:42:23.851+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:42:23.870+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:42:23.869+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:42:23.890+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.946 seconds
+[2023-07-30T18:44:20.484+0300] {processor.py:157} INFO - Started process (PID=29614) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:44:20.485+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:44:20.486+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:44:20.486+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:44:20.544+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:44:21.382+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:44:21.382+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:44:21.400+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:44:21.400+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:44:21.419+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.936 seconds
+[2023-07-30T18:46:20.202+0300] {processor.py:157} INFO - Started process (PID=29699) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:46:20.203+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:46:20.204+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:46:20.203+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:46:20.261+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:46:21.100+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:46:21.099+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:46:21.118+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:46:21.118+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:46:21.138+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.937 seconds
+[2023-07-30T18:48:13.525+0300] {processor.py:157} INFO - Started process (PID=29839) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:48:13.526+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:48:13.527+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:48:13.526+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:48:13.585+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:48:14.430+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:48:14.429+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:48:14.448+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:48:14.447+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:48:14.468+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.944 seconds
+[2023-07-30T18:50:07.484+0300] {processor.py:157} INFO - Started process (PID=29937) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:50:07.485+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:50:07.486+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:50:07.485+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:50:07.545+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:50:08.447+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:50:08.447+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:50:08.466+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:50:08.466+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:50:08.486+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.003 seconds
+[2023-07-30T18:52:04.591+0300] {processor.py:157} INFO - Started process (PID=30020) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:52:04.592+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:52:04.593+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:52:04.592+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:52:04.657+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:52:05.563+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:52:05.563+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:52:05.581+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:52:05.581+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:52:05.601+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.011 seconds
+[2023-07-30T18:53:58.394+0300] {processor.py:157} INFO - Started process (PID=30130) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:53:58.395+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:53:58.395+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:53:58.395+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:53:58.454+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:53:59.303+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:53:59.303+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:53:59.321+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:53:59.321+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:53:59.342+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.949 seconds
+[2023-07-30T18:55:49.750+0300] {processor.py:157} INFO - Started process (PID=30224) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:55:49.751+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:55:49.752+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:55:49.752+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:55:49.814+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:55:50.715+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:55:50.715+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:55:50.734+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:55:50.734+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:55:50.755+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.005 seconds
+[2023-07-30T18:57:44.158+0300] {processor.py:157} INFO - Started process (PID=30324) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:57:44.159+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:57:44.160+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:57:44.160+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:57:44.218+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:57:45.068+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:57:45.068+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:57:45.086+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:57:45.086+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:57:45.107+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.949 seconds
+[2023-07-30T18:59:43.789+0300] {processor.py:157} INFO - Started process (PID=30406) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:59:43.790+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T18:59:43.791+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:59:43.791+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:59:43.857+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T18:59:44.947+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:59:44.946+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T18:59:44.970+0300] {logging_mixin.py:150} INFO - [2023-07-30T18:59:44.970+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T18:59:44.995+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.207 seconds
+[2023-07-30T19:01:47.166+0300] {processor.py:157} INFO - Started process (PID=30487) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:01:47.167+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:01:47.168+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:01:47.168+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:01:47.228+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:01:48.090+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:01:48.090+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:01:48.109+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:01:48.109+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:01:48.130+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.965 seconds
+[2023-07-30T19:03:51.893+0300] {processor.py:157} INFO - Started process (PID=30584) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:03:51.894+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:03:51.895+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:03:51.895+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:03:51.957+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:03:52.803+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:03:52.802+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:03:52.823+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:03:52.823+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:03:52.842+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.950 seconds
+[2023-07-30T19:06:00.007+0300] {processor.py:157} INFO - Started process (PID=30654) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:06:00.008+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:06:00.008+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:06:00.008+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:06:00.066+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:06:01.006+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:06:01.005+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:06:01.025+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:06:01.025+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:06:01.046+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.041 seconds
+[2023-07-30T19:07:53.579+0300] {processor.py:157} INFO - Started process (PID=30716) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:07:53.580+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:07:53.581+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:07:53.581+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:07:53.640+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:07:54.501+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:07:54.501+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:07:54.519+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:07:54.519+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:07:54.539+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.960 seconds
+[2023-07-30T19:09:51.154+0300] {processor.py:157} INFO - Started process (PID=30784) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:09:51.155+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:09:51.156+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:09:51.155+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:09:51.213+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:09:52.164+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:09:52.164+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:09:52.183+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:09:52.183+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:09:52.204+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.050 seconds
+[2023-07-30T19:11:56.680+0300] {processor.py:157} INFO - Started process (PID=30855) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:11:56.682+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:11:56.684+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:11:56.683+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:11:56.782+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:11:57.707+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:11:57.707+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:11:57.726+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:11:57.726+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:11:57.745+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.067 seconds
+[2023-07-30T19:14:07.530+0300] {processor.py:157} INFO - Started process (PID=30944) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:14:07.531+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:14:07.531+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:14:07.531+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:14:07.589+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:14:08.526+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:14:08.526+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:14:08.545+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:14:08.545+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:14:08.567+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.038 seconds
+[2023-07-30T19:16:09.337+0300] {processor.py:157} INFO - Started process (PID=31017) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:16:09.338+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:16:09.339+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:16:09.338+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:16:09.398+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:16:10.278+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:16:10.277+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:16:10.295+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:16:10.295+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:16:10.315+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.979 seconds
+[2023-07-30T19:18:13.826+0300] {processor.py:157} INFO - Started process (PID=31157) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:18:13.827+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:18:13.827+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:18:13.827+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:18:13.886+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:18:14.779+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:18:14.778+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:18:14.799+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:18:14.799+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:18:14.821+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.996 seconds
+[2023-07-30T19:20:24.963+0300] {processor.py:157} INFO - Started process (PID=31230) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:20:24.964+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:20:24.964+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:20:24.964+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:20:25.024+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:20:25.997+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:20:25.996+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:20:26.016+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:20:26.016+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:20:26.038+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.076 seconds
+[2023-07-30T19:22:32.055+0300] {processor.py:157} INFO - Started process (PID=31308) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:22:32.056+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:22:32.057+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:22:32.056+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:22:32.115+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:22:32.976+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:22:32.975+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:22:32.995+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:22:32.995+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:22:33.016+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.961 seconds
+[2023-07-30T19:24:31.837+0300] {processor.py:157} INFO - Started process (PID=31380) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:24:31.839+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:24:31.839+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:24:31.839+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:24:31.897+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:24:32.846+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:24:32.845+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:24:32.865+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:24:32.865+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:24:32.887+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.050 seconds
+[2023-07-30T19:26:34.527+0300] {processor.py:157} INFO - Started process (PID=31453) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:26:34.528+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:26:34.529+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:26:34.529+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:26:34.590+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:26:35.439+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:26:35.439+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:26:35.457+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:26:35.457+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:26:35.477+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.951 seconds
+[2023-07-30T19:28:31.866+0300] {processor.py:157} INFO - Started process (PID=31529) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:28:31.867+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T19:28:31.867+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:28:31.867+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:28:31.926+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T19:28:32.771+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:28:32.770+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T19:28:32.789+0300] {logging_mixin.py:150} INFO - [2023-07-30T19:28:32.789+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T19:28:32.829+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.964 seconds
+[2023-07-30T20:10:14.193+0300] {processor.py:157} INFO - Started process (PID=31685) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:10:14.196+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:10:14.198+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:10:14.197+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:10:14.385+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:10:17.408+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:10:17.407+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:10:17.468+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:10:17.468+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:10:17.533+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 3.342 seconds
+[2023-07-30T20:13:05.164+0300] {processor.py:157} INFO - Started process (PID=31829) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:13:05.166+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:13:05.166+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:13:05.166+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:13:05.226+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:13:06.116+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:13:06.116+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:13:06.135+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:13:06.134+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:13:06.154+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.990 seconds
+[2023-07-30T20:15:14.881+0300] {processor.py:157} INFO - Started process (PID=31951) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:15:14.882+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:15:14.883+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:15:14.883+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:15:14.943+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:15:15.925+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:15:15.925+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:15:15.945+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:15:15.944+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:15:15.966+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.085 seconds
+[2023-07-30T20:17:25.612+0300] {processor.py:157} INFO - Started process (PID=32043) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:17:25.613+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:17:25.614+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:17:25.613+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:17:25.706+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:17:26.691+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:17:26.691+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:17:26.718+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:17:26.718+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:17:26.738+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.127 seconds
+[2023-07-30T20:19:51.977+0300] {processor.py:157} INFO - Started process (PID=32182) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:19:51.978+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:19:51.979+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:19:51.979+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:19:52.065+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:19:53.029+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:19:53.029+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:19:53.049+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:19:53.049+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:19:53.073+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.096 seconds
+[2023-07-30T20:22:01.228+0300] {processor.py:157} INFO - Started process (PID=32262) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:22:01.229+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:22:01.229+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:22:01.229+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:22:01.290+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:22:02.151+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:22:02.150+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:22:02.171+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:22:02.171+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:22:02.189+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.962 seconds
+[2023-07-30T20:24:12.747+0300] {processor.py:157} INFO - Started process (PID=32461) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:24:12.749+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:24:12.749+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:24:12.749+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:24:12.810+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:24:13.727+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:24:13.726+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:24:13.745+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:24:13.745+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:24:13.764+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.017 seconds
+[2023-07-30T20:26:23.623+0300] {processor.py:157} INFO - Started process (PID=32559) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:26:23.624+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:26:23.625+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:26:23.625+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:26:23.683+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:26:24.636+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:26:24.636+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:26:24.654+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:26:24.654+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:26:24.675+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.052 seconds
+[2023-07-30T20:28:30.061+0300] {processor.py:157} INFO - Started process (PID=32632) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:28:30.062+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:28:30.063+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:28:30.063+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:28:30.125+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:28:31.003+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:28:31.003+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:28:31.021+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:28:31.021+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:28:31.039+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.979 seconds
+[2023-07-30T20:30:40.947+0300] {processor.py:157} INFO - Started process (PID=32746) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:30:40.948+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:30:40.949+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:30:40.949+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:30:41.008+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:30:42.009+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:30:42.008+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:30:42.026+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:30:42.026+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:30:42.048+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.101 seconds
+[2023-07-30T20:32:55.447+0300] {processor.py:157} INFO - Started process (PID=32898) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:32:55.448+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:32:55.448+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:32:55.448+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:32:55.507+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:32:56.383+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:32:56.382+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:32:56.401+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:32:56.400+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:32:56.418+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.973 seconds
+[2023-07-30T20:34:58.932+0300] {processor.py:157} INFO - Started process (PID=32991) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:34:58.933+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:34:58.934+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:34:58.933+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:34:58.993+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:34:59.960+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:34:59.960+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:34:59.978+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:34:59.978+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:34:59.999+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.068 seconds
+[2023-07-30T20:37:07.483+0300] {processor.py:157} INFO - Started process (PID=33107) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:37:07.493+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:37:07.494+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:37:07.493+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:37:07.564+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:37:08.598+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:37:08.598+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:37:08.622+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:37:08.622+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:37:08.645+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.163 seconds
+[2023-07-30T20:39:16.509+0300] {processor.py:157} INFO - Started process (PID=33262) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:39:16.510+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:39:16.511+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:39:16.511+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:39:16.573+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:39:17.469+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:39:17.468+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:39:17.487+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:39:17.487+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:39:17.505+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.997 seconds
+[2023-07-30T20:41:26.146+0300] {processor.py:157} INFO - Started process (PID=33367) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:41:26.147+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:41:26.148+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:41:26.147+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:41:26.207+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:41:27.181+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:41:27.181+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:41:27.199+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:41:27.199+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:41:27.220+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.075 seconds
+[2023-07-30T20:43:35.939+0300] {processor.py:157} INFO - Started process (PID=33531) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:43:35.940+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:43:35.940+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:43:35.940+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:43:36.004+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:43:36.993+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:43:36.992+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:43:37.011+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:43:37.011+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:43:37.030+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.092 seconds
+[2023-07-30T20:45:44.681+0300] {processor.py:157} INFO - Started process (PID=33637) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:45:44.682+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:45:44.683+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:45:44.683+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:45:44.744+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:45:45.743+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:45:45.743+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:45:45.761+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:45:45.761+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:45:45.782+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.101 seconds
+[2023-07-30T20:47:51.863+0300] {processor.py:157} INFO - Started process (PID=33745) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:47:51.864+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:47:51.865+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:47:51.865+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:47:51.926+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:47:52.810+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:47:52.810+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:47:52.828+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:47:52.828+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:47:52.846+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.983 seconds
+[2023-07-30T20:50:02.967+0300] {processor.py:157} INFO - Started process (PID=33865) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:50:02.969+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:50:02.969+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:50:02.969+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:50:03.027+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:50:03.986+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:50:03.985+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:50:04.003+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:50:04.003+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:50:04.024+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.058 seconds
+[2023-07-30T20:52:13.059+0300] {processor.py:157} INFO - Started process (PID=33977) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:52:13.061+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:52:13.061+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:52:13.061+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:52:13.122+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:52:14.024+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:52:14.023+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:52:14.042+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:52:14.042+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:52:14.061+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.002 seconds
+[2023-07-30T20:54:33.276+0300] {processor.py:157} INFO - Started process (PID=34092) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:54:33.277+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:54:33.278+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:54:33.278+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:54:33.351+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:54:34.402+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:54:34.401+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:54:34.422+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:54:34.422+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:54:34.441+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.166 seconds
+[2023-07-30T20:56:45.222+0300] {processor.py:157} INFO - Started process (PID=34196) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:56:45.223+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:56:45.224+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:56:45.224+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:56:45.284+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:56:46.289+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:56:46.289+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:56:46.308+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:56:46.307+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:56:46.330+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.109 seconds
+[2023-07-30T20:58:57.283+0300] {processor.py:157} INFO - Started process (PID=34293) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:58:57.284+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T20:58:57.285+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:58:57.285+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:58:57.345+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T20:58:58.256+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:58:58.256+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T20:58:58.276+0300] {logging_mixin.py:150} INFO - [2023-07-30T20:58:58.276+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T20:58:58.294+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.011 seconds
+[2023-07-30T21:01:13.049+0300] {processor.py:157} INFO - Started process (PID=34381) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:01:13.050+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:01:13.051+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:01:13.051+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:01:13.111+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:01:14.112+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:01:14.112+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:01:14.130+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:01:14.130+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:01:14.151+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.102 seconds
+[2023-07-30T21:03:28.270+0300] {processor.py:157} INFO - Started process (PID=34467) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:03:28.271+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:03:28.272+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:03:28.272+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:03:28.332+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:03:29.267+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:03:29.267+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:03:29.286+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:03:29.285+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:03:29.305+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.035 seconds
+[2023-07-30T21:05:47.882+0300] {processor.py:157} INFO - Started process (PID=34567) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:05:47.883+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:05:47.884+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:05:47.884+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:05:47.966+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:05:49.091+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:05:49.091+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:05:49.110+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:05:49.110+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:05:49.181+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.300 seconds
+[2023-07-30T21:08:03.115+0300] {processor.py:157} INFO - Started process (PID=34649) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:08:03.117+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:08:03.117+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:08:03.117+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:08:03.179+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:08:04.125+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:08:04.125+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:08:04.144+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:08:04.144+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:08:04.162+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.048 seconds
+[2023-07-30T21:10:16.768+0300] {processor.py:157} INFO - Started process (PID=34760) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:10:16.770+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:10:16.770+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:10:16.770+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:10:16.830+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:10:17.815+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:10:17.814+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:10:17.833+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:10:17.833+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:10:17.855+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.087 seconds
+[2023-07-30T21:12:26.955+0300] {processor.py:157} INFO - Started process (PID=34897) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:12:26.957+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:12:26.957+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:12:26.957+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:12:27.017+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:12:27.911+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:12:27.910+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:12:27.929+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:12:27.929+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:12:27.948+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.993 seconds
+[2023-07-30T21:14:53.711+0300] {processor.py:157} INFO - Started process (PID=35005) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:14:53.712+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:14:53.712+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:14:53.712+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:14:53.770+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:14:54.760+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:14:54.760+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:14:54.779+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:14:54.779+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:14:54.801+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.091 seconds
+[2023-07-30T21:17:08.241+0300] {processor.py:157} INFO - Started process (PID=35103) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:17:08.242+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:17:08.242+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:17:08.242+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:17:08.301+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:17:09.191+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:17:09.190+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:17:09.209+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:17:09.208+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:17:09.228+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.988 seconds
+[2023-07-30T21:19:26.326+0300] {processor.py:157} INFO - Started process (PID=35184) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:19:26.327+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:19:26.328+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:19:26.328+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:19:26.389+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:19:27.292+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:19:27.292+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:19:27.310+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:19:27.310+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:19:27.328+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.003 seconds
+[2023-07-30T21:21:36.382+0300] {processor.py:157} INFO - Started process (PID=35266) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:21:36.383+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:21:36.384+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:21:36.383+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:21:36.445+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:21:37.459+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:21:37.459+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:21:37.478+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:21:37.478+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:21:37.501+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.120 seconds
+[2023-07-30T21:23:44.600+0300] {processor.py:157} INFO - Started process (PID=35359) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:23:44.601+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:23:44.601+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:23:44.601+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:23:44.661+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:23:45.549+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:23:45.549+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:23:45.568+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:23:45.568+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:23:45.587+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.988 seconds
+[2023-07-30T21:25:53.606+0300] {processor.py:157} INFO - Started process (PID=35459) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:25:53.607+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:25:53.608+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:25:53.607+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:25:53.672+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:25:54.688+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:25:54.688+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:25:54.706+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:25:54.706+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:25:54.728+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.123 seconds
+[2023-07-30T21:28:05.295+0300] {processor.py:157} INFO - Started process (PID=35578) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:28:05.296+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:28:05.297+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:28:05.297+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:28:05.355+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:28:06.257+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:28:06.257+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:28:06.276+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:28:06.276+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:28:06.295+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.000 seconds
+[2023-07-30T21:30:16.949+0300] {processor.py:157} INFO - Started process (PID=35663) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:30:16.950+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:30:16.950+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:30:16.950+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:30:17.011+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:30:17.995+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:30:17.995+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:30:18.013+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:30:18.013+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:30:18.035+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.087 seconds
+[2023-07-30T21:32:18.743+0300] {processor.py:157} INFO - Started process (PID=35751) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:32:18.744+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:32:18.744+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:32:18.744+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:32:18.804+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:32:19.679+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:32:19.679+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:32:19.698+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:32:19.698+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:32:19.717+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.975 seconds
+[2023-07-30T21:34:28.075+0300] {processor.py:157} INFO - Started process (PID=35839) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:34:28.076+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:34:28.077+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:34:28.077+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:34:28.138+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:34:29.044+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:34:29.043+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:34:29.062+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:34:29.062+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:34:29.082+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.008 seconds
+[2023-07-30T21:36:39.337+0300] {processor.py:157} INFO - Started process (PID=35956) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:36:39.338+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:36:39.338+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:36:39.338+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:36:39.397+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:36:40.379+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:36:40.378+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:36:40.397+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:36:40.397+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:36:40.419+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.083 seconds
+[2023-07-30T21:38:50.400+0300] {processor.py:157} INFO - Started process (PID=36054) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:38:50.401+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:38:50.401+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:38:50.401+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:38:50.460+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:38:51.346+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:38:51.345+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:38:51.364+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:38:51.363+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:38:51.382+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.984 seconds
+[2023-07-30T21:40:58.392+0300] {processor.py:157} INFO - Started process (PID=36173) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:40:58.393+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:40:58.393+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:40:58.393+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:40:58.453+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:40:59.467+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:40:59.467+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:40:59.485+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:40:59.485+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:40:59.509+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.118 seconds
+[2023-07-30T21:43:08.143+0300] {processor.py:157} INFO - Started process (PID=36276) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:43:08.144+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:43:08.145+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:43:08.145+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:43:08.205+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:43:09.076+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:43:09.076+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:43:09.096+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:43:09.096+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:43:09.118+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.975 seconds
+[2023-07-30T21:45:19.200+0300] {processor.py:157} INFO - Started process (PID=36371) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:45:19.202+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:45:19.202+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:45:19.202+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:45:19.260+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:45:20.223+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:45:20.223+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:45:20.241+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:45:20.241+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:45:20.262+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.063 seconds
+[2023-07-30T21:47:29.303+0300] {processor.py:157} INFO - Started process (PID=36453) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:47:29.304+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:47:29.305+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:47:29.305+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:47:29.364+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:47:30.243+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:47:30.243+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:47:30.261+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:47:30.261+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:47:30.280+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.977 seconds
+[2023-07-30T21:49:38.067+0300] {processor.py:157} INFO - Started process (PID=36551) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:49:38.068+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:49:38.069+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:49:38.068+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:49:38.130+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:49:39.017+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:49:39.016+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:49:39.035+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:49:39.035+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:49:39.054+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.989 seconds
+[2023-07-30T21:51:48.390+0300] {processor.py:157} INFO - Started process (PID=36648) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:51:48.391+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:51:48.391+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:51:48.391+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:51:48.449+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:51:49.437+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:51:49.437+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:51:49.455+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:51:49.455+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:51:49.477+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.088 seconds
+[2023-07-30T21:53:57.871+0300] {processor.py:157} INFO - Started process (PID=36740) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:53:57.872+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:53:57.872+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:53:57.872+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:53:57.935+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:53:58.888+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:53:58.887+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:53:58.911+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:53:58.911+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:53:58.939+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.069 seconds
+[2023-07-30T21:56:09.378+0300] {processor.py:157} INFO - Started process (PID=36863) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:56:09.379+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:56:09.379+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:56:09.379+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:56:09.440+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:56:10.460+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:56:10.460+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:56:10.478+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:56:10.478+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:56:10.502+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.125 seconds
+[2023-07-30T21:58:20.578+0300] {processor.py:157} INFO - Started process (PID=36958) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:58:20.579+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T21:58:20.580+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:58:20.579+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:58:20.641+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T21:58:21.549+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:58:21.549+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T21:58:21.569+0300] {logging_mixin.py:150} INFO - [2023-07-30T21:58:21.569+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T21:58:21.590+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.013 seconds
+[2023-07-30T22:00:35.315+0300] {processor.py:157} INFO - Started process (PID=37063) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:00:35.316+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:00:35.316+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:00:35.316+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:00:35.375+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:00:36.359+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:00:36.359+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:00:36.377+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:00:36.376+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:00:36.398+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.084 seconds
+[2023-07-30T22:02:49.550+0300] {processor.py:157} INFO - Started process (PID=37174) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:02:49.552+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:02:49.552+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:02:49.552+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:02:49.616+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:02:50.563+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:02:50.562+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:02:50.582+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:02:50.582+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:02:50.602+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.053 seconds
+[2023-07-30T22:05:03.669+0300] {processor.py:157} INFO - Started process (PID=37278) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:05:03.670+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:05:03.670+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:05:03.670+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:05:03.729+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:05:04.723+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:05:04.723+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:05:04.741+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:05:04.741+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:05:04.763+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.095 seconds
+[2023-07-30T22:07:19.555+0300] {processor.py:157} INFO - Started process (PID=37375) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:07:19.556+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:07:19.557+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:07:19.557+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:07:19.617+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:07:20.523+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:07:20.522+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:07:20.542+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:07:20.542+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:07:20.561+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.007 seconds
+[2023-07-30T22:09:33.557+0300] {processor.py:157} INFO - Started process (PID=37482) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:09:33.558+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:09:33.559+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:09:33.559+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:09:33.619+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:09:34.532+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:09:34.532+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:09:34.552+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:09:34.551+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:09:34.571+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.014 seconds
+[2023-07-30T22:11:47.446+0300] {processor.py:157} INFO - Started process (PID=37579) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:11:47.447+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:11:47.447+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:11:47.447+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:11:47.508+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:11:48.531+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:11:48.530+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:11:48.549+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:11:48.549+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:11:48.572+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.127 seconds
+[2023-07-30T22:14:02.486+0300] {processor.py:157} INFO - Started process (PID=37701) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:14:02.489+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:14:02.490+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:14:02.490+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:14:02.558+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:14:03.467+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:14:03.466+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:14:03.486+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:14:03.486+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:14:03.505+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.020 seconds
+[2023-07-30T22:16:17.115+0300] {processor.py:157} INFO - Started process (PID=37793) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:16:17.116+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:16:17.117+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:16:17.116+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:16:17.178+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:16:18.189+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:16:18.188+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:16:18.208+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:16:18.207+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:16:18.230+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.115 seconds
+[2023-07-30T22:18:31.594+0300] {processor.py:157} INFO - Started process (PID=37905) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:18:31.595+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:18:31.595+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:18:31.595+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:18:31.656+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:18:32.584+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:18:32.584+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:18:32.603+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:18:32.603+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:18:32.623+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.030 seconds
+[2023-07-30T22:20:45.928+0300] {processor.py:157} INFO - Started process (PID=38036) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:20:45.930+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:20:45.930+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:20:45.930+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:20:45.995+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:20:47.015+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:20:47.015+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:20:47.034+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:20:47.034+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:20:47.057+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.129 seconds
+[2023-07-30T22:23:01.795+0300] {processor.py:157} INFO - Started process (PID=38159) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:23:01.796+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:23:01.797+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:23:01.797+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:23:01.873+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:23:02.831+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:23:02.831+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:23:02.850+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:23:02.850+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:23:02.869+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.074 seconds
+[2023-07-30T22:25:15.697+0300] {processor.py:157} INFO - Started process (PID=38297) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:25:15.698+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:25:15.698+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:25:15.698+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:25:15.759+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:25:16.868+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:25:16.868+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:25:16.887+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:25:16.887+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:25:16.911+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.215 seconds
+[2023-07-30T22:27:31.568+0300] {processor.py:157} INFO - Started process (PID=38420) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:27:31.569+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:27:31.570+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:27:31.570+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:27:31.630+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:27:32.542+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:27:32.542+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:27:32.561+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:27:32.560+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:27:32.580+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.012 seconds
+[2023-07-30T22:29:46.242+0300] {processor.py:157} INFO - Started process (PID=38554) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:29:46.243+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:29:46.244+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:29:46.244+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:29:46.305+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:29:47.213+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:29:47.213+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:29:47.233+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:29:47.232+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:29:47.252+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.011 seconds
+[2023-07-30T22:32:00.214+0300] {processor.py:157} INFO - Started process (PID=38638) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:32:00.215+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:32:00.215+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:32:00.215+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:32:00.274+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:32:01.251+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:32:01.251+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:32:01.269+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:32:01.269+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:32:01.291+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.078 seconds
+[2023-07-30T22:34:13.937+0300] {processor.py:157} INFO - Started process (PID=38735) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:34:13.938+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:34:13.939+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:34:13.939+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:34:13.998+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:34:14.892+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:34:14.892+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:34:14.910+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:34:14.910+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:34:14.929+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.993 seconds
+[2023-07-30T22:36:27.255+0300] {processor.py:157} INFO - Started process (PID=38849) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:36:27.256+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:36:27.257+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:36:27.256+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:36:27.316+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:36:28.301+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:36:28.301+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:36:28.319+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:36:28.319+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:36:28.341+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.087 seconds
+[2023-07-30T22:38:39.575+0300] {processor.py:157} INFO - Started process (PID=38962) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:38:39.576+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:38:39.577+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:38:39.576+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:38:39.636+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:38:40.516+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:38:40.516+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:38:40.535+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:38:40.535+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:38:40.554+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.979 seconds
+[2023-07-30T22:40:51.983+0300] {processor.py:157} INFO - Started process (PID=39081) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:40:51.985+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:40:51.985+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:40:51.985+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:40:52.044+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:40:53.040+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:40:53.039+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:40:53.058+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:40:53.057+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:40:53.079+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.096 seconds
+[2023-07-30T22:43:06.285+0300] {processor.py:157} INFO - Started process (PID=39207) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:43:06.286+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:43:06.287+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:43:06.287+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:43:06.346+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:43:07.229+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:43:07.228+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:43:07.247+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:43:07.247+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:43:07.266+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.982 seconds
+[2023-07-30T22:45:18.600+0300] {processor.py:157} INFO - Started process (PID=39308) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:45:18.601+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:45:18.602+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:45:18.602+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:45:18.661+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:45:19.643+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:45:19.643+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:45:19.661+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:45:19.661+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:45:19.684+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.084 seconds
+[2023-07-30T22:47:32.839+0300] {processor.py:157} INFO - Started process (PID=39417) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:47:32.840+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:47:32.841+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:47:32.841+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:47:32.899+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:47:33.778+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:47:33.777+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:47:33.796+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:47:33.796+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:47:33.815+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.976 seconds
+[2023-07-30T22:49:45.485+0300] {processor.py:157} INFO - Started process (PID=39540) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:49:45.486+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:49:45.486+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:49:45.486+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:49:45.548+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:49:46.435+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:49:46.435+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:49:46.454+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:49:46.453+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:49:46.472+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.988 seconds
+[2023-07-30T22:52:02.182+0300] {processor.py:157} INFO - Started process (PID=39661) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:52:02.183+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:52:02.184+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:52:02.183+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:52:02.246+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:52:03.480+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:52:03.480+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:52:03.499+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:52:03.499+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:52:03.521+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.340 seconds
+[2023-07-30T22:54:18.174+0300] {processor.py:157} INFO - Started process (PID=39780) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:54:18.175+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:54:18.176+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:54:18.176+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:54:18.235+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:54:19.164+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:54:19.163+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:54:19.182+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:54:19.182+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:54:19.200+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.027 seconds
+[2023-07-30T22:56:35.500+0300] {processor.py:157} INFO - Started process (PID=39891) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:56:35.502+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:56:35.502+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:56:35.502+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:56:35.567+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:56:36.613+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:56:36.613+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:56:36.634+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:56:36.633+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:56:36.660+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.160 seconds
+[2023-07-30T22:58:50.659+0300] {processor.py:157} INFO - Started process (PID=40004) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:58:50.661+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T22:58:50.661+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:58:50.661+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:58:50.720+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T22:58:51.601+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:58:51.601+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T22:58:51.620+0300] {logging_mixin.py:150} INFO - [2023-07-30T22:58:51.620+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T22:58:51.639+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.980 seconds
+[2023-07-30T23:01:06.025+0300] {processor.py:157} INFO - Started process (PID=40124) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T23:01:06.026+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T23:01:06.026+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:01:06.026+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T23:01:06.087+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T23:01:07.063+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:01:07.063+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T23:01:07.081+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:01:07.081+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T23:01:07.103+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.079 seconds
+[2023-07-30T23:03:22.387+0300] {processor.py:157} INFO - Started process (PID=40257) to work on /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T23:03:22.388+0300] {processor.py:826} INFO - Processing file /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-07-30T23:03:22.389+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:03:22.389+0300] {dagbag.py:541} INFO - Filling up the DagBag from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T23:03:22.449+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-07-30T23:03:23.355+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:03:23.354+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-30T23:03:23.374+0300] {logging_mixin.py:150} INFO - [2023-07-30T23:03:23.374+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-07-30T23:03:23.395+0300] {processor.py:179} INFO - Processing /Users/olgastash/neoflex_env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.008 seconds

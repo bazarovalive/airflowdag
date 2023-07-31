@@ -61,7 +61,7 @@ def load_data_to_table(table_name, conn,  filepath, sep, index_col, keep_default
 def taskbalance():
     conn = connect_to_database()
     load_data_to_table('ft_balance_f', conn,
-                   '/Users/olgastash/airflow/data/ft_balance_f.csv',
+                   '/data/ft_balance_f.csv',
                    sep=';', index_col=0, keep_default_na=False)
 
 def taskposting():
@@ -73,25 +73,25 @@ def taskposting():
 def taskaccount():
     conn = connect_to_database()
     load_data_to_table('md_account_d', conn,
-                       '/Users/olgastash/airflow/data/md_account_d.csv',
+                       '/data/md_account_d.csv',
                        sep=';', index_col=0, keep_default_na=False)
 
 def taskcurrency():
     conn = connect_to_database()
     load_data_to_table('md_currency_d', conn,
-                       '/Users/olgastash/airflow/data/md_currency_d.csv',
+                       '/data/md_currency_d.csv',
                        sep=';', index_col=0, keep_default_na=False)
 
 def taskexchange():
     conn = connect_to_database()
     load_data_to_table('md_exchange_rate_d', conn,
-                       '/Users/olgastash/airflow/data/md_exchange_rate_d.csv',
+                       '/data/md_exchange_rate_d.csv',
                        sep=';', index_col=0, keep_default_na=False)
 
 def taskledger():
     conn = connect_to_database()
     load_data_to_table('md_ledger_account_s', conn,
-                       '/Users/olgastash/airflow/data/md_ledger_account_s.csv',
+                       '/data/md_ledger_account_s.csv',
                        sep=';', index_col=0, keep_default_na=False)
 # query = "SELECT * FROM DS.md_exchange_rate_d"
 # result = pd.read_sql_query(query, conn)
